@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Italia Eventi</title>
+<style>
+:root{
+  --bg:#F2F2F7; --card:#FFFFFF; --text:#1C1C1E; --sub:#6E6E73; --line:#E5E5EA;
+  --blue:#007AFF; --serie-a:#2E8B57; --ucl:#0F1B4C; --concert:#8E44AD;
+  --festival:#D97706; --fashion:#1C1C1E; --theatre:#C0392B; --comedy:#D4A017; --fair:#4A6FA5;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+html{scroll-padding-top:env(safe-area-inset-top,0px);}
+body{margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",Helvetica,Arial,sans-serif; height:100%;}
+header{position:sticky; top:0; z-index:20; background:rgba(242,242,247,.92); backdrop-filter:blur(20px); padding:calc(10px + env(safe-area-inset-top,0px)) 16px 8px;}
+h1{font-size:28px; font-weight:700; margin:0 0 10px; letter-spacing:-.02em;}
+.headrow{display:flex; align-items:center; justify-content:space-between;}
+.iconbtn{width:34px; height:34px; border-radius:50%; background:var(--card); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; font-size:15px; color:var(--blue); cursor:pointer;}
+.search{margin-top:10px; background:var(--card); border-radius:10px; padding:9px 12px; display:flex; align-items:center; gap:6px; border:1px solid var(--line);}
+.search input{border:none; outline:none; background:transparent; flex:1; font-size:16px; color:var(--text);}
+.search input::placeholder{color:var(--sub);}
+.seg{display:flex; background:#E9E9EE; border-radius:9px; padding:2px; margin-top:10px;}
+.seg button{flex:1; border:none; background:transparent; padding:7px 0; font-size:13px; font-weight:600; color:var(--text); border-radius:7px; cursor:pointer;}
+.seg button.active{background:var(--card); box-shadow:0 1px 2px rgba(0,0,0,.12);}
+main{padding:14px 16px 100px; max-width:640px; margin:0 auto;}
+.chipbar{display:flex; gap:6px; overflow-x:auto; padding-bottom:4px; margin-bottom:14px;}
+.chipbar::-webkit-scrollbar{display:none;}
+.chip{white-space:nowrap; padding:6px 12px; border-radius:16px; background:var(--card); border:1px solid var(--line); font-size:13px; font-weight:500; color:var(--sub); cursor:pointer;}
+.chip.active{background:var(--blue); color:#fff; border-color:var(--blue);}
+
+/* Month grid */
+.monthnav{display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;}
+.monthnav .mtitle{font-size:17px; font-weight:700;}
+.monthnav button{border:none; background:var(--card); border:1px solid var(--line); width:30px; height:30px; border-radius:50%; color:var(--blue); font-size:15px; cursor:pointer;}
+.grid{background:var(--card); border-radius:14px; overflow:hidden; border:1px solid var(--line);}
+.dow{display:grid; grid-template-columns:repeat(7,1fr); text-align:center; font-size:11px; color:var(--sub); padding:8px 0; border-bottom:1px solid var(--line); font-weight:600;}
+.cells{display:grid; grid-template-columns:repeat(7,1fr);}
+.cell{aspect-ratio:1/1; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; padding-top:6px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); font-size:14px; cursor:pointer; position:relative;}
+.cell:nth-child(7n){border-right:none;}
+.cell.dim{color:#C7C7CC;}
+.cell.today .num{background:var(--blue); color:#fff; border-radius:50%; width:22px; height:22px; display:flex; align-items:center; justify-content:center;}
+.cell.sel{background:#EAF2FF;}
+.dots{display:flex; gap:2px; margin-top:3px;}
+.dot{width:5px; height:5px; border-radius:50%;}
+.daypanel{margin-top:14px;}
+.daypanel h3{font-size:15px; color:var(--sub); margin:0 0 8px; font-weight:600;}
+
+/* Agenda / list */
+.datehead{font-size:13px; font-weight:700; color:var(--sub); margin:18px 0 8px; text-transform:none;}
+.datehead:first-child{margin-top:0;}
+.card{background:var(--card); border-radius:14px; padding:13px 14px; margin-bottom:9px; display:flex; gap:12px; border:1px solid var(--line); cursor:pointer;}
+.card:active{background:#F7F7F9;}
+.catbar{width:4px; border-radius:2px; flex-shrink:0;}
+.cardbody{flex:1; min-width:0;}
+.time{font-size:13px; font-weight:600; color:var(--sub);}
+.ename{font-size:16px; font-weight:700; margin:2px 0 4px; letter-spacing:-.01em;}
+.venue{font-size:13px; color:var(--sub);}
+.tagrow{margin-top:6px; display:flex; align-items:center; gap:6px;}
+.tag{font-size:11px; font-weight:600; padding:3px 8px; border-radius:9px; color:#fff;}
+.empty{text-align:center; color:var(--sub); padding:60px 20px; font-size:15px;}
+
+/* Sheets */
+.overlay{position:fixed; inset:0; background:rgba(0,0,0,.35); z-index:40; display:none;}
+.overlay.show{display:block;}
+.sheet{position:fixed; left:0; right:0; bottom:0; background:var(--card); border-radius:18px 18px 0 0; z-index:50; padding:14px 18px calc(20px + env(safe-area-inset-bottom,0px)); transform:translateY(100%); transition:transform .28s cubic-bezier(.32,.72,0,1); max-height:82vh; overflow-y:auto;}
+.sheet.show{transform:translateY(0);}
+.grabber{width:36px; height:5px; background:#D1D1D6; border-radius:3px; margin:0 auto 14px;}
+.sheethead{display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;}
+.sheethead h2{font-size:19px; margin:0;}
+.donebtn{border:none; background:none; color:var(--blue); font-size:16px; font-weight:600; cursor:pointer;}
+.frow{margin-bottom:18px;}
+.flabel{font-size:13px; font-weight:700; color:var(--sub); margin-bottom:8px; text-transform:none;}
+.pillwrap{display:flex; flex-wrap:wrap; gap:8px;}
+.pill{padding:8px 14px; border-radius:16px; background:var(--bg); border:1px solid var(--line); font-size:14px; cursor:pointer;}
+.pill.active{background:var(--blue); color:#fff; border-color:var(--blue);}
+.detailfield{display:flex; justify-content:space-between; padding:11px 0; border-bottom:1px solid var(--line); font-size:15px;}
+.detailfield span:first-child{color:var(--sub);}
+.detailfield:last-child{border-bottom:none;}
+.dtag{display:inline-block; padding:4px 10px; border-radius:10px; color:#fff; font-size:12px; font-weight:700; margin-bottom:12px;}
+.srcnote{font-size:12px; color:var(--sub); margin-top:14px;}
+.debugrow{display:flex; justify-content:space-between; padding:9px 0; border-bottom:1px solid var(--line); font-size:14px;}
+.debugrow:last-child{border-bottom:none;}
+.ok{color:var(--serie-a); font-weight:600;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="headrow">
+    <h1>Italia Eventi</h1>
+    <div style="display:flex; gap:8px;">
+      <div class="iconbtn" id="filterBtn">⚙︎</div>
+      <div class="iconbtn" id="debugBtn">i</div>
+    </div>
+  </div>
+  <div class="search"><span>🔍</span><input id="searchInput" placeholder="Search events, venues, cities…"></div>
+  <div class="seg" id="viewSeg">
+    <button data-v="month" class="active">Month</button>
+    <button data-v="week">Week</button>
+    <button data-v="day">Day</button>
+    <button data-v="agenda">Agenda</button>
+  </div>
+</header>
+
+<main id="main"></main>
+
+<div class="overlay" id="overlay"></div>
+
+<div class="sheet" id="filterSheet">
+  <div class="grabber"></div>
+  <div class="sheethead"><h2>Filters</h2><button class="donebtn" id="filterDone">Done</button></div>
+  <div class="frow"><div class="flabel">City</div><div class="pillwrap" id="cityPills"></div></div>
+  <div class="frow"><div class="flabel">Category</div><div class="pillwrap" id="catPills"></div></div>
+  <div class="frow"><div class="flabel">Venue</div><div class="pillwrap" id="venuePills"></div></div>
+  <button class="donebtn" id="clearFilters" style="width:100%; text-align:center; padding:10px 0;">Clear all</button>
+</div>
+
+<div class="sheet" id="detailSheet">
+  <div class="grabber"></div>
+  <div id="detailBody"></div>
+</div>
+
+<div class="sheet" id="debugSheet">
+  <div class="grabber"></div>
+  <div class="sheethead"><h2>Sync &amp; Sources</h2><button class="donebtn" id="debugDone">Done</button></div>
+  <div id="debugBody"></div>
+</div>
+
+<script>
+const CATS = {
+  "Serie A":"--serie-a","Champions League":"--ucl","Concert":"--concert",
+  "Festival":"--festival","Fashion":"--fashion","Theatre":"--theatre",
+  "Comedy":"--comedy","Fair":"--fair"
+};
+const catColor = c => getComputedStyle(document.documentElement).getPropertyValue(CATS[c]||"--blue").trim();
+
+// Sample dataset — demo data, structured per full schema (city already normalized to Italian display form).
+// Used until events.json exists (i.e. before the first automated sync has run), or if the fetch fails.
+let EVENTS = [
+ {id:"e1",name:"Inter vs Juventus",date:"2026-10-18",start:"20:45",venue:"Stadio San Siro",city:"Milano",category:"Serie A",organiser:"Lega Serie A",status:"scheduled",source:"legaseriea.it"},
+ {id:"e2",name:"Juventus vs Milan",date:"2026-10-25",start:"18:00",venue:"Allianz Stadium",city:"Torino",category:"Serie A",organiser:"Lega Serie A",status:"scheduled",source:"legaseriea.it"},
+ {id:"e3",name:"Roma vs Napoli",date:"2026-10-19",start:"20:45",venue:"Stadio Olimpico",city:"Roma",category:"Serie A",organiser:"Lega Serie A",status:"scheduled",source:"legaseriea.it"},
+ {id:"e4",name:"Inter vs Real Madrid",date:"2026-10-21",start:"21:00",venue:"Stadio San Siro",city:"Milano",category:"Champions League",organiser:"UEFA",status:"scheduled",source:"uefa.com"},
+ {id:"e5",name:"Coldplay — Music of the Spheres",date:"2026-10-24",start:"21:00",venue:"Stadio San Siro",city:"Milano",category:"Concert",organiser:"Live Nation Italia",status:"scheduled",source:"ticketone.it"},
+ {id:"e6",name:"Ultimo — Tour 2026",date:"2026-10-26",start:"21:00",venue:"Unipol Forum",city:"Assago",category:"Concert",organiser:"Vivo Concerti",status:"scheduled",source:"vivoconcerti.com"},
+ {id:"e7",name:"Liga Rock Napoli",date:"2026-10-22",start:"20:30",venue:"Arena Flegrea",city:"Napoli",category:"Concert",organiser:"Ente Mostra d'Oltremare",status:"scheduled",source:"etes.it"},
+ {id:"e8",name:"Palio Straordinario",date:"2026-10-17",start:"19:00",venue:"Piazza del Campo",city:"Siena",category:"Festival",organiser:"Comune di Siena",status:"scheduled",source:"comune.siena.it"},
+ {id:"e9",name:"Milano Fashion Week — Womenswear",date:"2026-10-20",start:"10:00",venue:"Fondazione Prada",city:"Milano",category:"Fashion",organiser:"Camera della Moda",status:"scheduled",source:"cameramoda.it"},
+ {id:"e10",name:"Otello",date:"2026-10-23",start:"20:00",venue:"Teatro La Fenice",city:"Venezia",category:"Theatre",organiser:"Fondazione Teatro La Fenice",status:"scheduled",source:"teatrolafenice.it"},
+ {id:"e11",name:"Angelo Duro — Live",date:"2026-10-27",start:"21:15",venue:"Teatro Manzoni",city:"Bologna",category:"Comedy",organiser:"Vertigo",status:"scheduled",source:"vivaticket.com"},
+ {id:"e12",name:"Fiera del Tartufo",date:"2026-10-29",start:"09:00",venue:"Centro Storico",city:"Alba",category:"Fair",organiser:"Ente Fiera Internazionale Tartufo",status:"scheduled",source:"fieradeltartufo.org"},
+ {id:"e13",name:"Bologna vs Atalanta",date:"2026-10-30",start:"18:30",venue:"Stadio Renato Dall'Ara",city:"Bologna",category:"Serie A",organiser:"Lega Serie A",status:"scheduled",source:"legaseriea.it"},
+ {id:"e14",name:"Fiorentina vs Lazio",date:"2026-11-01",start:"15:00",venue:"Stadio Artemio Franchi",city:"Firenze",category:"Serie A",organiser:"Lega Serie A",status:"scheduled",source:"legaseriea.it"},
+ {id:"e15",name:"Atalanta vs Napoli",date:"2026-11-02",start:"20:45",venue:"Gewiss Stadium",city:"Bergamo",category:"Serie A",organiser:"Lega Serie A",status:"scheduled",source:"legaseriea.it"},
+ {id:"e16",name:"Jazz Autunno Roma",date:"2026-10-31",start:"21:30",venue:"Auditorium Parco della Musica",city:"Roma",category:"Concert",organiser:"Fondazione Musica per Roma",status:"scheduled",source:"auditorium.com"},
+];
+
+let state = {view:"month", city:"All", cat:"All", venue:"All", q:"", cursor:new Date(2026,9,1), selDate:"2026-10-18"};
+
+const months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+const dows=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+let cities=["All"], categories=["All", ...Object.keys(CATS)], venues=["All"];
+
+function refreshFilterOptions(){
+  cities=["All", ...Array.from(new Set(EVENTS.map(e=>e.city))).sort()];
+  venues=["All", ...Array.from(new Set(EVENTS.map(e=>e.venue))).sort()];
+}
+refreshFilterOptions();
+
+function filtered(){
+  return EVENTS.filter(e=>{
+    if(state.city!=="All" && e.city!==state.city) return false;
+    if(state.cat!=="All" && e.category!==state.cat) return false;
+    if(state.venue!=="All" && e.venue!==state.venue) return false;
+    if(state.q){
+      const q=state.q.toLowerCase();
+      const hay=[e.name,e.venue,e.organiser,e.city,e.category].join(" ").toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort((a,b)=> a.date===b.date ? a.start.localeCompare(b.start) : a.date.localeCompare(b.date));
+}
+
+function card(e){
+  const col = catColor(e.category);
+  return `<div class="card" onclick="openDetail('${e.id}')">
+    <div class="catbar" style="background:${col}"></div>
+    <div class="cardbody">
+      <div class="time">${e.start}</div>
+      <div class="ename">${e.name}</div>
+      <div class="venue">${e.venue} · ${e.city}</div>
+      <div class="tagrow"><span class="tag" style="background:${col}">${e.category}</span></div>
+    </div>
+  </div>`;
+}
+
+function fmtDateHead(d){
+  const dt=new Date(d+"T00:00:00");
+  return dt.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long"});
+}
+
+function renderAgenda(list){
+  if(!list.length) return '<div class="empty">No events match your filters.</div>';
+  let html="", last="";
+  list.forEach(e=>{
+    if(e.date!==last){ html+=`<div class="datehead">${fmtDateHead(e.date)}</div>`; last=e.date; }
+    html+=card(e);
+  });
+  return html;
+}
+
+function renderDay(list){
+  const day = list.filter(e=>e.date===state.selDate);
+  const nav = `<div class="monthnav">
+    <button onclick="shiftDay(-1)">‹</button>
+    <div class="mtitle">${fmtDateHead(state.selDate)}</div>
+    <button onclick="shiftDay(1)">›</button>
+  </div>`;
+  return nav + (day.length ? day.map(card).join("") : '<div class="empty">No events on this day.</div>');
+}
+function shiftDay(n){
+  const d=new Date(state.selDate+"T00:00:00"); d.setDate(d.getDate()+n);
+  state.selDate=d.toISOString().slice(0,10); render();
+}
+
+function renderWeek(list){
+  const base=new Date(state.selDate+"T00:00:00");
+  const dow=base.getDay();
+  const start=new Date(base); start.setDate(base.getDate()-dow);
+  let html="";
+  for(let i=0;i<7;i++){
+    const d=new Date(start); d.setDate(start.getDate()+i);
+    const iso=d.toISOString().slice(0,10);
+    const day=list.filter(e=>e.date===iso);
+    html+=`<div class="datehead">${d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"})}</div>`;
+    html+= day.length ? day.map(card).join("") : '<div style="color:var(--sub); font-size:14px; padding:4px 2px 4px;">—</div>';
+  }
+  return html;
+}
+
+function renderMonth(list){
+  const y=state.cursor.getFullYear(), m=state.cursor.getMonth();
+  const first=new Date(y,m,1), startDow=first.getDay();
+  const daysInMonth=new Date(y,m+1,0).getDate();
+  const daysInPrev=new Date(y,m,0).getDate();
+  const todayIso=new Date().toISOString().slice(0,10);
+  let cells="";
+  const totalCells=Math.ceil((startDow+daysInMonth)/7)*7;
+  for(let i=0;i<totalCells;i++){
+    const dayNum=i-startDow+1;
+    let iso, dim=false, label;
+    if(dayNum<1){ label=daysInPrev+dayNum; dim=true; const pm=m===0?11:m-1, py=m===0?y-1:y; iso=`${py}-${String(pm+1).padStart(2,"0")}-${String(label).padStart(2,"0")}`; }
+    else if(dayNum>daysInMonth){ label=dayNum-daysInMonth; dim=true; const nm=m===11?0:m+1, ny=m===11?y+1:y; iso=`${ny}-${String(nm+1).padStart(2,"0")}-${String(label).padStart(2,"0")}`; }
+    else { label=dayNum; iso=`${y}-${String(m+1).padStart(2,"0")}-${String(dayNum).padStart(2,"0")}`; }
+    const dayEvents = list.filter(e=>e.date===iso);
+    const dots = dayEvents.slice(0,3).map(e=>`<span class="dot" style="background:${catColor(e.category)}"></span>`).join("");
+    cells+=`<div class="cell ${dim?"dim":""} ${iso===todayIso?"today":""} ${iso===state.selDate?"sel":""}" onclick="pickDay('${iso}')">
+      <span class="num">${label}</span><div class="dots">${dots}</div>
+    </div>`;
+  }
+  const grid=`<div class="monthnav">
+    <button onclick="shiftMonth(-1)">‹</button>
+    <div class="mtitle">${months[m]} ${y}</div>
+    <button onclick="shiftMonth(1)">›</button>
+  </div>
+  <div class="grid"><div class="dow">${dows.map(d=>`<div>${d}</div>`).join("")}</div><div class="cells">${cells}</div></div>`;
+  const dayList = list.filter(e=>e.date===state.selDate);
+  const panel = `<div class="daypanel"><h3>${fmtDateHead(state.selDate)}</h3>${dayList.length?dayList.map(card).join(""):'<div class="empty">No events on this day.</div>'}</div>`;
+  return grid+panel;
+}
+function pickDay(iso){ state.selDate=iso; render(); }
+function shiftMonth(n){ state.cursor=new Date(state.cursor.getFullYear(), state.cursor.getMonth()+n, 1); render(); }
+
+function render(){
+  const list=filtered();
+  const main=document.getElementById("main");
+  if(state.view==="month") main.innerHTML=renderMonth(list);
+  else if(state.view==="week") main.innerHTML=renderWeek(list);
+  else if(state.view==="day") main.innerHTML=renderDay(list);
+  else main.innerHTML=renderAgenda(list.filter(e=>e.date>=new Date().toISOString().slice(0,10) || true));
+}
+
+function openDetail(id){
+  const e=EVENTS.find(x=>x.id===id);
+  const col=catColor(e.category);
+  document.getElementById("detailBody").innerHTML=`
+    <span class="dtag" style="background:${col}">${e.category}</span>
+    <h2 style="margin:0 0 14px;">${e.name}</h2>
+    <div class="detailfield"><span>Date</span><span>${fmtDateHead(e.date)}</span></div>
+    <div class="detailfield"><span>Start time</span><span>${e.start}</span></div>
+    <div class="detailfield"><span>Venue</span><span>${e.venue}</span></div>
+    <div class="detailfield"><span>City</span><span>${e.city}</span></div>
+    <div class="detailfield"><span>Organiser</span><span>${e.organiser}</span></div>
+    <div class="detailfield"><span>Status</span><span>${e.status}</span></div>
+    <div class="srcnote">Source: ${e.source} · Demo data</div>
+  `;
+  openSheet("detailSheet");
+}
+
+function buildPills(container, options, key){
+  container.innerHTML = options.map(o=>`<div class="pill ${state[key]===o?"active":""}" onclick="setFilter('${key}','${o.replace(/'/g,"\\'")}')">${o}</div>`).join("");
+}
+function setFilter(key,val){ state[key]=val; buildAllPills(); render(); }
+function buildAllPills(){
+  buildPills(document.getElementById("cityPills"), cities, "city");
+  buildPills(document.getElementById("catPills"), categories, "cat");
+  buildPills(document.getElementById("venuePills"), venues, "venue");
+}
+
+function openSheet(id){ document.getElementById(id).classList.add("show"); document.getElementById("overlay").classList.add("show"); }
+function closeSheets(){ document.querySelectorAll(".sheet").forEach(s=>s.classList.remove("show")); document.getElementById("overlay").classList.remove("show"); }
+
+document.getElementById("overlay").addEventListener("click", closeSheets);
+document.getElementById("filterBtn").addEventListener("click", ()=>openSheet("filterSheet"));
+document.getElementById("filterDone").addEventListener("click", closeSheets);
+document.getElementById("clearFilters").addEventListener("click", ()=>{ state.city="All"; state.cat="All"; state.venue="All"; buildAllPills(); render(); });
+document.getElementById("debugDone").addEventListener("click", closeSheets);
+document.getElementById("debugBtn").addEventListener("click", ()=>{
+  const sources=[
+    ["Lega Serie A (official)","OK","synced 6h ago"],
+    ["UEFA.com (official)","OK","synced 6h ago"],
+    ["TicketOne","OK","synced 5h ago"],
+    ["Vivoconcerti","OK","synced 5h ago"],
+    ["Comune di Siena events","Warning","stale — 2 days"],
+  ];
+  document.getElementById("debugBody").innerHTML =
+    `<div class="debugrow"><span>Last sync</span><span class="ok">Today, 05:00</span></div>
+     <div class="debugrow"><span>Total events</span><span>${EVENTS.length}</span></div>
+     <div class="debugrow"><span>Added today</span><span>3</span></div>
+     <div class="debugrow"><span>Updated today</span><span>1</span></div>
+     <div class="debugrow"><span>Duplicates merged</span><span>2</span></div>
+     <div style="margin:16px 0 8px; font-size:13px; font-weight:700; color:var(--sub);">Sources</div>` +
+    sources.map(s=>`<div class="debugrow"><span>${s[0]}</span><span style="color:${s[1]==="OK"?"var(--serie-a)":"var(--festival)"}">${s[1]} · ${s[2]}</span></div>`).join("") +
+    `<div class="srcnote">This panel shows demo sync status. Once the ingestion service is deployed, it reports real sync runs here.</div>`;
+  openSheet("debugSheet");
+});
+document.getElementById("searchInput").addEventListener("input", e=>{ state.q=e.target.value; render(); });
+document.querySelectorAll("#viewSeg button").forEach(b=>{
+  b.addEventListener("click", ()=>{
+    document.querySelectorAll("#viewSeg button").forEach(x=>x.classList.remove("active"));
+    b.classList.add("active"); state.view=b.dataset.v; render();
+  });
+});
+
+buildAllPills();
+render();
+
+// If a real events.json has been published by the daily sync, use it instead
+// of the bundled sample data. Silently keeps the sample data if the file
+// doesn't exist yet (e.g. before the first sync) or the fetch fails.
+fetch("./events.json", {cache:"no-store"})
+  .then(r => r.ok ? r.json() : null)
+  .then(data => {
+    if (Array.isArray(data) && data.length) {
+      EVENTS = data;
+      refreshFilterOptions();
+      buildAllPills();
+      render();
+    }
+  })
+  .catch(() => { /* keep sample data */ });
+</script>
+</body>
+</html>

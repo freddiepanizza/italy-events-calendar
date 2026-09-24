@@ -1,0 +1,35 @@
+name: Daily Event Sync
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # 05:00 UTC every day — adjust to taste
+  workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run daily sync
+        run: python -m backend.ingest.run_sync
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.json backend/events.db
+          git diff --staged --quiet || git commit -m "Daily event sync $(date -u +%F)"
+          git push
