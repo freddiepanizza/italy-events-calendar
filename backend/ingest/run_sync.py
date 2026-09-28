@@ -4,18 +4,23 @@ Daily sync entrypoint. Run via cron / GitHub Actions schedule:
 
 Each adapter's failure is isolated so one broken source never blocks the rest.
 """
+import os
 import sqlite3
 import traceback
 from datetime import datetime, timezone
 
 from backend.ingest.dedupe import dedupe_key, normalize_city
 from backend.ingest.adapters.base import Adapter
+from backend.ingest.adapters.football_data import SerieAAdapter, ChampionsLeagueAdapter
+from backend.ingest.adapters.ticketmaster import ConcertAdapter
 from backend.ingest.export_json import export as export_json
 
 # Register adapters here as you add sources — this is the only place a new
 # source needs to be wired in.
 ADAPTERS: list[Adapter] = [
-    # SerieAAdapter(), UefaAdapter(), TicketOneAdapter(), ...
+    SerieAAdapter(),
+    ChampionsLeagueAdapter(),
+    ConcertAdapter(),
 ]
 
 DB_PATH = "backend/events.db"
@@ -71,8 +76,20 @@ def upsert_event(cur, source_id, e):
     return outcome
 
 
+def ensure_schema(conn):
+    """Applies schema.sql (all statements are IF NOT EXISTS, so this is safe
+    whether events.db is brand new, as on a runner's first-ever checkout, or
+    already populated from a previous sync's committed database."""
+    schema_path = os.path.join(os.path.dirname(__file__), "..", "schema.sql")
+    with open(schema_path, "r", encoding="utf-8") as f:
+        conn.executescript(f.read())
+    conn.commit()
+
+
 def main():
+    os.makedirs(os.path.dirname(DB_PATH) or ".", exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
+    ensure_schema(conn)
     cur = conn.cursor()
 
     for adapter in ADAPTERS:
