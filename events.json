@@ -264,6 +264,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e419",
+    "name": "SS Lazio vs AC Monza",
+    "date": "2026-10-11",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e25",
     "name": "Trem Azul",
     "date": "2026-10-11",
@@ -273,6 +284,28 @@
     "city": "Carrara",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e420",
+    "name": "Atalanta BC vs Venezia FC",
+    "date": "2026-10-12",
+    "start": "18:30",
+    "status": "scheduled",
+    "venue": "Gewiss Stadium",
+    "city": "Bergamo",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e421",
+    "name": "Torino FC vs Udinese Calcio",
+    "date": "2026-10-12",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico Grande Torino",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e26",
@@ -374,6 +407,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e422",
+    "name": "Bologna FC 1909 vs FC Internazionale Milano",
+    "date": "2026-10-17",
+    "start": "18:00",
+    "status": "scheduled",
+    "venue": "Stadio Renato Dall'Ara",
+    "city": "Bologna",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e35",
     "name": "Jay Park Ft. LNGSHOT - Serenades & Body Rolls Tour ",
     "date": "2026-10-17",
@@ -383,6 +427,17 @@
     "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e423",
+    "name": "AS Roma vs Genoa CFC",
+    "date": "2026-10-17",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e36",
@@ -449,6 +504,39 @@
     "city": "Nonantola",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e424",
+    "name": "ACF Fiorentina vs Como 1907",
+    "date": "2026-10-18",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Artemio Franchi",
+    "city": "Firenze",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e425",
+    "name": "AC Milan vs Atalanta BC",
+    "date": "2026-10-18",
+    "start": "18:00",
+    "status": "scheduled",
+    "venue": "San Siro",
+    "city": "Milano",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e426",
+    "name": "Juventus FC vs SS Lazio",
+    "date": "2026-10-18",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Allianz Stadium",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e42",
@@ -627,6 +715,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e427",
+    "name": "Torino FC vs AC Monza",
+    "date": "2026-10-23",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico Grande Torino",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e58",
     "name": "KID YUGI - Anche gli Eroi Muoiono Tour - Palasport 2026",
     "date": "2026-10-23",
@@ -715,6 +814,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e428",
+    "name": "SS Lazio vs Parma Calcio 1913",
+    "date": "2026-10-24",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e66",
     "name": "DOCTOR 3 feat. LUCIANO BIONDINI | Padova Jazz Festival 2026",
     "date": "2026-10-24",
@@ -759,6 +869,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e429",
+    "name": "Atalanta BC vs Frosinone Calcio",
+    "date": "2026-10-25",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Gewiss Stadium",
+    "city": "Bergamo",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e70",
     "name": "ELEINE",
     "date": "2026-10-26",
@@ -790,6 +911,28 @@
     "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e430",
+    "name": "AS Roma vs Cagliari Calcio",
+    "date": "2026-10-27",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e431",
+    "name": "Torino FC vs Como 1907",
+    "date": "2026-10-27",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico Grande Torino",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e73",
@@ -834,6 +977,17 @@
     "city": "Roma",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e432",
+    "name": "AC Milan vs Bologna FC 1909",
+    "date": "2026-10-28",
+    "start": "18:30",
+    "status": "scheduled",
+    "venue": "San Siro",
+    "city": "Milano",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e77",
@@ -889,6 +1043,17 @@
     "city": "Casalecchio Di Reno (Bologna)",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e433",
+    "name": "ACF Fiorentina vs Atalanta BC",
+    "date": "2026-10-29",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Artemio Franchi",
+    "city": "Firenze",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e82",
@@ -1034,6 +1199,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e434",
+    "name": "Bologna FC 1909 vs AC Monza",
+    "date": "2026-10-31",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Renato Dall'Ara",
+    "city": "Bologna",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e95",
     "name": "Enrico Intra meets Gerry Mulligan | JAZZMI 26",
     "date": "2026-10-31",
@@ -1054,6 +1230,17 @@
     "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e435",
+    "name": "AC Milan vs FC Internazionale Milano",
+    "date": "2026-10-31",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "San Siro",
+    "city": "Milano",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e97",
@@ -1111,6 +1298,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e436",
+    "name": "SS Lazio vs Cagliari Calcio",
+    "date": "2026-11-01",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e102",
     "name": "Dimitri Grechi Espinoza, Aziz Senol Filiz e Guido Zorn “Meditation on a Love Supreme” | JAZZMI 2026",
     "date": "2026-11-01",
@@ -1144,6 +1342,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e437",
+    "name": "Juventus FC vs SSC Napoli",
+    "date": "2026-11-01",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Allianz Stadium",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e105",
     "name": "nayt: Noi Individui Tour",
     "date": "2026-11-01",
@@ -1175,6 +1384,17 @@
     "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e438",
+    "name": "Atalanta BC vs Parma Calcio 1913",
+    "date": "2026-11-02",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Gewiss Stadium",
+    "city": "Bergamo",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e108",
@@ -1386,6 +1606,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e439",
+    "name": "Torino FC vs US Lecce",
+    "date": "2026-11-07",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico Grande Torino",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e127",
     "name": "Enzo Favata “Atlantico\" | JAZZMI 2026",
     "date": "2026-11-07",
@@ -1428,6 +1659,17 @@
     "city": "Assago",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e440",
+    "name": "AS Roma vs US Sassuolo Calcio",
+    "date": "2026-11-07",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e131",
@@ -1538,6 +1780,17 @@
     "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e441",
+    "name": "ACF Fiorentina vs Juventus FC",
+    "date": "2026-11-08",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Artemio Franchi",
+    "city": "Firenze",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e141",
