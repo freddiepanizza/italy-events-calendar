@@ -1,12 +1,14 @@
 -- Italy Events Calendar — SQLite schema
+-- Every statement is idempotent (IF NOT EXISTS) so it's safe to run on
+-- every sync, whether the database already exists or not.
 
-CREATE TABLE cities (
+CREATE TABLE IF NOT EXISTS cities (
   id INTEGER PRIMARY KEY,
   name_it TEXT UNIQUE NOT NULL,       -- Milano, Torino, Roma...
   region TEXT
 );
 
-CREATE TABLE venues (
+CREATE TABLE IF NOT EXISTS venues (
   id INTEGER PRIMARY KEY,
   name TEXT NOT NULL,
   address TEXT,
@@ -14,12 +16,12 @@ CREATE TABLE venues (
   UNIQUE(name, city_id)
 );
 
-CREATE TABLE organisers (
+CREATE TABLE IF NOT EXISTS organisers (
   id INTEGER PRIMARY KEY,
   name TEXT UNIQUE NOT NULL
 );
 
-CREATE TABLE sources (
+CREATE TABLE IF NOT EXISTS sources (
   id INTEGER PRIMARY KEY,
   name TEXT UNIQUE NOT NULL,
   url TEXT,
@@ -33,7 +35,7 @@ CREATE TABLE sources (
   error_status TEXT
 );
 
-CREATE TABLE events (
+CREATE TABLE IF NOT EXISTS events (
   id INTEGER PRIMARY KEY,
   external_key TEXT UNIQUE,           -- normalized dedupe key, see ingest/dedupe.py
   name TEXT NOT NULL,
@@ -52,7 +54,7 @@ CREATE TABLE events (
   updated_at TEXT DEFAULT (datetime('now'))
 );
 
-CREATE TABLE event_sources (         -- an event can have several source URLs (dedup keeps one event)
+CREATE TABLE IF NOT EXISTS event_sources (  -- an event can have several source URLs (dedup keeps one event)
   event_id INTEGER REFERENCES events(id),
   source_id INTEGER REFERENCES sources(id),
   source_url TEXT,
@@ -60,7 +62,7 @@ CREATE TABLE event_sources (         -- an event can have several source URLs (d
   PRIMARY KEY (event_id, source_id)
 );
 
-CREATE TABLE sync_runs (
+CREATE TABLE IF NOT EXISTS sync_runs (
   id INTEGER PRIMARY KEY,
   started_at TEXT,
   finished_at TEXT,
@@ -69,6 +71,6 @@ CREATE TABLE sync_runs (
   log TEXT
 );
 
-CREATE INDEX idx_events_date ON events(date);
-CREATE INDEX idx_events_city ON events(city_id);
-CREATE INDEX idx_events_category ON events(category);
+CREATE INDEX IF NOT EXISTS idx_events_date ON events(date);
+CREATE INDEX IF NOT EXISTS idx_events_city ON events(city_id);
+CREATE INDEX IF NOT EXISTS idx_events_category ON events(category);
