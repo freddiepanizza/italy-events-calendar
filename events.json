@@ -1936,6 +1936,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e442",
+    "name": "LIVE GULINO (MARTA SUI TUBI)",
+    "date": "2026-11-13",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Q-HUB",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e154",
     "name": "Marco Mengoni - Residency Allo Sbagliato",
     "date": "2026-11-13",
@@ -2031,6 +2042,17 @@
     "status": "scheduled",
     "venue": "Palapartenope",
     "city": "Napoli",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e443",
+    "name": "Lisa Agnelli Pop Rock Concert",
+    "date": "2026-11-14",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Morlacchi",
+    "city": "Perugia",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -2295,6 +2317,17 @@
     "status": "scheduled",
     "venue": "Circolo ADMR Chiari",
     "city": "Chiari (Brescia)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e444",
+    "name": "Etta + Loste + Varlene | Milano Music Week 2026",
+    "date": "2026-11-20",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Q-HUB",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -2860,6 +2893,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e445",
+    "name": "CARA CALMA",
+    "date": "2026-12-04",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Q-HUB",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e238",
     "name": "Marco Mengoni - Residency Allo Sbagliato",
     "date": "2026-12-05",
@@ -3043,6 +3087,17 @@
     "status": "scheduled",
     "venue": "Fabrique",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e446",
+    "name": "RAIZ e RADICANTO - Musica Immaginaria Mediterranea",
+    "date": "2026-12-10",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Teatro Apollo",
+    "city": "Lecce",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -3289,6 +3344,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e447",
+    "name": "NIRVANA DAY",
+    "date": "2026-12-18",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Legend Club",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e277",
     "name": "Marco Mengoni - Residency Allo Sbagliato",
     "date": "2026-12-19",
@@ -3318,6 +3384,17 @@
     "status": "scheduled",
     "venue": "Unipol Arena",
     "city": "Casalecchio Di Reno (Bologna)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e448",
+    "name": "SHANDON + LOS FASTIDIOS | SKA PUNK OI FEST VOL. 2",
+    "date": "2026-12-19",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Q-HUB",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -3641,6 +3718,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e449",
+    "name": "Comastatic",
+    "date": "2027-02-03",
+    "start": "19:30",
+    "status": "scheduled",
+    "venue": "La Cripta Club",
+    "city": "Cusano Milanino (Milano)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e309",
     "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
     "date": "2027-02-05",
@@ -3659,6 +3747,17 @@
     "status": "scheduled",
     "venue": "Unipol Arena",
     "city": "Casalecchio Di Reno (Bologna)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e450",
+    "name": "BIRTHH",
+    "date": "2027-02-09",
+    "start": "21:30",
+    "status": "scheduled",
+    "venue": "Locomotiv Club",
+    "city": "Bologna",
     "category": "Concert",
     "organiser": "Not available"
   },
