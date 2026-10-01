@@ -198,6 +198,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e451",
+    "name": " LIVE LOUNGE | Emozioni Senza Tempo",
+    "date": "2026-10-10",
+    "start": "19:00",
+    "status": "scheduled",
+    "venue": "Inalpi Arena",
+    "city": "Torino",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e19",
     "name": "KID YUGI - Anche gli Eroi Muoiono Tour - Palasport 2026",
     "date": "2026-10-10",
@@ -273,6 +284,17 @@
     "city": "Roma",
     "category": "Serie A",
     "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e452",
+    "name": " LIVE LOUNGE | Emozioni Senza Tempo",
+    "date": "2026-10-11",
+    "start": "19:00",
+    "status": "scheduled",
+    "venue": "Inalpi Arena",
+    "city": "Torino",
+    "category": "Concert",
+    "organiser": "Not available"
   },
   {
     "id": "e25",
@@ -2816,6 +2838,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e453",
+    "name": "CRISTIANO DE ANDRE' - DE ANDRE CANTA DE ANDRE",
+    "date": "2026-12-02",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Dis_Play Brixia Forum",
+    "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e231",
     "name": "Kodaline - Farewell Tour",
     "date": "2026-12-03",
@@ -4890,6 +4923,17 @@
     "start": "21:00",
     "status": "scheduled",
     "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e454",
+    "name": "EMMA - LIVE 2027",
+    "date": "2027-10-25",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Kioene Arena",
     "city": "Padova",
     "category": "Concert",
     "organiser": "Not available"
