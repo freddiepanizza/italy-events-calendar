@@ -440,6 +440,17 @@
     "organiser": "Lega Serie A"
   },
   {
+    "id": "e462",
+    "name": "LIVE LOUNGE | Shine & Dance",
+    "date": "2026-10-17",
+    "start": "19:00",
+    "status": "scheduled",
+    "venue": "Inalpi Arena",
+    "city": "Torino",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e35",
     "name": "Jay Park Ft. LNGSHOT - Serenades & Body Rolls Tour ",
     "date": "2026-10-17",
@@ -548,6 +559,17 @@
     "city": "Milano",
     "category": "Serie A",
     "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e463",
+    "name": "LIVE LOUNGE | Shine & Dance",
+    "date": "2026-10-18",
+    "start": "19:00",
+    "status": "scheduled",
+    "venue": "Inalpi Arena",
+    "city": "Torino",
+    "category": "Concert",
+    "organiser": "Not available"
   },
   {
     "id": "e426",
@@ -1408,6 +1430,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e464",
+    "name": "PATRIZIA LAQUIDARA - \"Flòrula\"",
+    "date": "2026-11-02",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Sale Apollinee del Teatro La Fenice",
+    "city": "Venezia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e438",
     "name": "Atalanta BC vs Parma Calcio 1913",
     "date": "2026-11-02",
@@ -2090,6 +2123,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e465",
+    "name": "Benjamin Clementine - Allo Sbagliato",
+    "date": "2026-11-15",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Allo Sbagliato - Teatro Principe",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e164",
     "name": "22Simba | Miria - Live Tour",
     "date": "2026-11-15",
@@ -2240,6 +2284,17 @@
     "status": "scheduled",
     "venue": "Circolo Magnolia",
     "city": "Segrate (Milano)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e466",
+    "name": "Live Session - Allo Sbagliato |  prima stanza a destra, Gioia Lucia, Angelica Bove,  IL MAESTRALE",
+    "date": "2026-11-19",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Allo Sbagliato - Teatro Principe",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -2618,6 +2673,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e467",
+    "name": "Sayf, Matsby - Allo Sbagliato",
+    "date": "2026-11-27",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Allo Sbagliato - Teatro Principe",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e211",
     "name": "Cesare Cremonini - AMATOUR",
     "date": "2026-11-27",
@@ -2849,6 +2915,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e468",
+    "name": "Live Session - Allo Sbagliato | faccianuvola, Settembre, Anna and the Vulkan,  Mazzariello, Primogenito",
+    "date": "2026-12-03",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Allo Sbagliato - Teatro Principe",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e231",
     "name": "Kodaline - Farewell Tour",
     "date": "2026-12-03",
@@ -3021,6 +3098,17 @@
     "status": "scheduled",
     "venue": "Unipol Arena",
     "city": "Casalecchio Di Reno (Bologna)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e469",
+    "name": "Mace, Clap! Clap! - Allo Sbagliato",
+    "date": "2026-12-06",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Allo Sbagliato - Teatro Principe",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -4510,6 +4598,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e470",
+    "name": "Greta Van Fleet - Into The Beginning",
+    "date": "2027-05-16",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Unipol Forum",
+    "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e373",
     "name": "ELODIE SHOW 2027",
     "date": "2027-05-18",
@@ -5001,6 +5100,17 @@
     "status": "scheduled",
     "venue": "Kioene Arena",
     "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e471",
+    "name": "EMMA - LIVE 2027",
+    "date": "2027-10-27",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palazzo dello Sport",
+    "city": "Roma",
     "category": "Concert",
     "organiser": "Not available"
   },
