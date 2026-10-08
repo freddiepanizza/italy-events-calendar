@@ -308,6 +308,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e488",
+    "name": "Trem Azul",
+    "date": "2026-10-11",
+    "start": "21:30",
+    "status": "scheduled",
+    "venue": "Ridotto del Teatro degli Animosi",
+    "city": "Carrara",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e420",
     "name": "Atalanta BC vs Venezia FC",
     "date": "2026-10-12",
@@ -2508,6 +2519,39 @@
     "organiser": "Not available"
   },
   {
+    "id": "e484",
+    "name": "Juventus FC vs Venezia FC",
+    "date": "2026-11-22",
+    "start": "12:30",
+    "status": "scheduled",
+    "venue": "Allianz Stadium",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e485",
+    "name": "Bologna FC 1909 vs Udinese Calcio",
+    "date": "2026-11-22",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Renato Dall'Ara",
+    "city": "Bologna",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e486",
+    "name": "AC Milan vs Frosinone Calcio",
+    "date": "2026-11-22",
+    "start": "18:00",
+    "status": "scheduled",
+    "venue": "San Siro",
+    "city": "Milano",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e193",
     "name": "Marco Mengoni - Residency Allo Sbagliato",
     "date": "2026-11-22",
@@ -2517,6 +2561,17 @@
     "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e487",
+    "name": "Atalanta BC vs FC Internazionale Milano",
+    "date": "2026-11-22",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Gewiss Stadium",
+    "city": "Bergamo",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e194",
@@ -2746,6 +2801,17 @@
     "status": "scheduled",
     "venue": "Kioene Arena",
     "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e489",
+    "name": "NICK THE NIGHTFLY e OLES ORCHESTRA - Fly me to the moon",
+    "date": "2026-11-27",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Teatro Apollo",
+    "city": "Lecce",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -3586,6 +3652,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e490",
+    "name": "GOSPEL NIGHT with Florida Inspirational Singers",
+    "date": "2026-12-17",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e276",
     "name": "Cesare Cremonini - AMATOUR",
     "date": "2026-12-18",
@@ -3740,6 +3817,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e491",
+    "name": "GOSPEL NIGHT with Florida Inspirational Singers",
+    "date": "2026-12-22",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Clerici",
+    "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e286",
     "name": "IRAMA | A Chi Ci Sarà Sempre - Palasport 2026",
     "date": "2026-12-23",
@@ -3879,6 +3967,17 @@
     "status": "scheduled",
     "venue": "Unipol Dome",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e492",
+    "name": "Diego Basso \"Plays Queen\"",
+    "date": "2027-01-09",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -4609,6 +4708,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e493",
+    "name": "FRANCESCO DE GREGORI",
+    "date": "2027-04-15",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "TeatroTeam - Bari",
+    "city": "Bari",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e362",
     "name": "SIMPLE MINDS",
     "date": "2027-04-16",
@@ -4726,6 +4836,17 @@
     "status": "scheduled",
     "venue": "Unipol Forum",
     "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e494",
+    "name": "THE FABULOUS THUNDERBIRDS IN CONCERTO",
+    "date": "2027-05-13",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Istituto Salesiano San Bernardino",
+    "city": "Chiari",
     "category": "Concert",
     "organiser": "Not available"
   },
