@@ -1485,6 +1485,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e495",
+    "name": "David Binney & Louis Cole | JAZZMI 2026",
+    "date": "2026-11-03",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Teatro dell'Arte - Triennale Milano",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e109",
     "name": "DR. FEELGOOD",
     "date": "2026-11-03",
@@ -2306,6 +2317,17 @@
     "status": "scheduled",
     "venue": "Circolo Magnolia",
     "city": "Segrate (Milano)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e496",
+    "name": "TERESA DE SIO - JAZZAMORE 2026",
+    "date": "2026-11-18",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Auditorium Unical",
+    "city": "Rende",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -4400,6 +4422,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e497",
+    "name": "Gabry Ponte - CIRCOTRON - The dance show",
+    "date": "2027-03-12",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Palazzo dello Sport",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e334",
     "name": "Gabry Ponte - CIRCOTRON - The dance show",
     "date": "2027-03-13",
@@ -4715,6 +4748,17 @@
     "status": "scheduled",
     "venue": "TeatroTeam - Bari",
     "city": "Bari",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e498",
+    "name": "VOLOSI",
+    "date": "2027-04-16",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Sale Apollinee del Teatro La Fenice",
+    "city": "Venezia",
     "category": "Concert",
     "organiser": "Not available"
   },
