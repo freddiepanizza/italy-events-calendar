@@ -2794,6 +2794,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e505",
+    "name": "ARI HOENIG- JAZZAMORE 2026",
+    "date": "2026-11-26",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Auditorium Unical",
+    "city": "Rende",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e467",
     "name": "Sayf, Matsby - Allo Sbagliato",
     "date": "2026-11-27",
@@ -4099,6 +4110,17 @@
     "status": "scheduled",
     "venue": "Inalpi Arena",
     "city": "Torino",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e506",
+    "name": "Ayra Starr: Starrgirl World Tour",
+    "date": "2027-01-27",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Fabrique",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
