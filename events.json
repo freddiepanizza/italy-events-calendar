@@ -418,6 +418,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e508",
+    "name": "Myles Smith",
+    "date": "2026-10-16",
+    "start": "20:15",
+    "status": "scheduled",
+    "venue": "Fabrique",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e33",
     "name": "Myles Smith - My Mess, My Heart, My Life. Tour",
     "date": "2026-10-16",
@@ -2860,6 +2871,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e507",
+    "name": "Torino FC vs SS Lazio",
+    "date": "2026-11-28",
+    "start": "18:00",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico Grande Torino",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e214",
     "name": "Marco Mengoni - Residency Allo Sbagliato",
     "date": "2026-11-28",
@@ -3190,6 +3212,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e509",
+    "name": "Rami Khalife & Marcel Khalife | La Musica dei Cieli 2026",
+    "date": "2026-12-05",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Chiesa di San Vincenzo in Prato",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e238",
     "name": "Marco Mengoni - Residency Allo Sbagliato",
     "date": "2026-12-05",
@@ -3377,6 +3410,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e510",
+    "name": "Kayhan Kalhor duo \"The Art of Improvisation in Iranian Music\" | La Musica dei Cieli 2026",
+    "date": "2026-12-10",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Chiesa dei Santi Gervaso e Protaso",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e251",
     "name": "Marco Mengoni - Residency Allo Sbagliato",
     "date": "2026-12-10",
@@ -3428,6 +3472,17 @@
     "status": "scheduled",
     "venue": "Teatro Apollo",
     "city": "Lecce",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e511",
+    "name": "Enzo Avitabile e Peppe Servillo | La Musica dei Cieli 2026",
+    "date": "2026-12-11",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Chiesa dei Santi Gervaso e Protaso",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -3718,6 +3773,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e512",
+    "name": "Moni Ovadia con le musiche dal vivo di Stefano Albarello | La Musica dei Cieli 2026",
+    "date": "2026-12-18",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Basilica di San Vittore al Corpo",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e276",
     "name": "Cesare Cremonini - AMATOUR",
     "date": "2026-12-18",
@@ -3912,6 +3978,17 @@
     "status": "scheduled",
     "venue": "Unipol Dome",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e513",
+    "name": "DUO BUCOLICO + LENNON KELLY",
+    "date": "2026-12-25",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Vidia Club",
+    "city": "Cesena",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -4572,6 +4649,17 @@
     "status": "scheduled",
     "venue": "Mandela Forum",
     "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e514",
+    "name": "THE WATCH plays GENESIS \"The best from 1970-1976\"",
+    "date": "2027-03-19",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Auditorium Paganini",
+    "city": "Parma",
     "category": "Concert",
     "organiser": "Not available"
   },
