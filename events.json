@@ -2926,6 +2926,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e516",
+    "name": "PAOLO BUONVINO - Racconti di ispirazione",
+    "date": "2026-11-28",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Teatro Apollo",
+    "city": "Lecce",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e218",
     "name": "Modena City Ramblers",
     "date": "2026-11-28",
@@ -2935,6 +2946,17 @@
     "city": "Cesena",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e515",
+    "name": "AS Roma vs AC Monza",
+    "date": "2026-11-29",
+    "start": "18:00",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e219",
@@ -3214,6 +3236,17 @@
   {
     "id": "e509",
     "name": "Rami Khalife & Marcel Khalife | La Musica dei Cieli 2026",
+    "date": "2026-12-05",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Chiesa di San Vincenzo in Prato",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e517",
+    "name": "Marcel Khalife & Rami Khalife “Legacy\" | La Musica dei Cieli 2026",
     "date": "2026-12-05",
     "start": "20:00",
     "status": "scheduled",
@@ -4697,6 +4730,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e518",
+    "name": "Sonohra",
+    "date": "2027-03-20",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Vidia Club",
+    "city": "Cesena",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e343",
     "name": "NOMADI - Live",
     "date": "2027-03-20",
@@ -5148,6 +5192,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e519",
+    "name": "Pinguini Tattici Nucleari - Replay Tour Stadi 2027",
+    "date": "2027-06-04",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Stadio Comunale",
+    "city": "Bibione",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e380",
     "name": "VASCO RESIDENCY SHOW - ROMA 2027",
     "date": "2027-06-06",
@@ -5172,6 +5227,17 @@
   {
     "id": "e382",
     "name": "Pinguini Tattici Nucleari - Tour Stadi 2027",
+    "date": "2027-06-08",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Stadio Dall'Ara",
+    "city": "Bologna",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e520",
+    "name": "Pinguini Tattici Nucleari - Replay Tour Stadi 2027",
     "date": "2027-06-08",
     "start": "21:00",
     "status": "scheduled",
@@ -5313,6 +5379,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e521",
+    "name": "Pinguini Tattici Nucleari - Replay Tour Stadi 2027",
+    "date": "2027-06-21",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Stadio Euganeo",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e504",
     "name": "Nickelback: Everything Under The Sun Tour",
     "date": "2027-06-23",
@@ -5337,6 +5414,17 @@
   {
     "id": "e396",
     "name": "Pinguini Tattici Nucleari - Tour Stadi 2027",
+    "date": "2027-06-24",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Stadio San Nicola",
+    "city": "Bari",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e522",
+    "name": "Pinguini Tattici Nucleari - Replay Tour Stadi 2027",
     "date": "2027-06-24",
     "start": "21:00",
     "status": "scheduled",
@@ -5403,6 +5491,17 @@
   {
     "id": "e402",
     "name": "Pinguini Tattici Nucleari - Tour Stadi 2027",
+    "date": "2027-07-03",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Stadio San Filippo Franco Scoglio",
+    "city": "Messina",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e523",
+    "name": "Pinguini Tattici Nucleari - Replay Tour Stadi 2027",
     "date": "2027-07-03",
     "start": "21:00",
     "status": "scheduled",
