@@ -3575,6 +3575,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e535",
+    "name": "Moni Ovadia con le musiche dal vivo di Stefano Albarello",
+    "date": "2026-12-11",
+    "start": "21:30",
+    "status": "scheduled",
+    "venue": "Teatro Comunale Pietrasanta",
+    "city": "Pietrasanta",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e481",
     "name": "LIVE LOUNGE | Sotto le Stelle",
     "date": "2026-12-12",
@@ -3927,6 +3938,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e536",
+    "name": "Summertime Choir: ENJOY – Un concerto, uno spettacolo, una festa!",
+    "date": "2026-12-19",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Kioene Arena",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e280",
     "name": "ELIO - La rivalutazione della tristezza",
     "date": "2026-12-19",
@@ -4213,8 +4235,30 @@
     "organiser": "Not available"
   },
   {
+    "id": "e537",
+    "name": "Tedua - Palasport 2027",
+    "date": "2027-01-21",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palazzo del Turismo Jesolo",
+    "city": "Lido Di Jesolo",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e302",
     "name": "Tedua - TED RYAN TOUR",
+    "date": "2027-01-23",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Unipol Arena",
+    "city": "Casalecchio Di Reno (Bologna)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e538",
+    "name": "Tedua - Palasport 2027",
     "date": "2027-01-23",
     "start": "21:00",
     "status": "scheduled",
@@ -4246,6 +4290,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e539",
+    "name": "Tedua - Palasport 2027",
+    "date": "2027-01-26",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Inalpi Arena",
+    "city": "Torino",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e506",
     "name": "Ayra Starr: Starrgirl World Tour",
     "date": "2027-01-27",
@@ -4268,6 +4323,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e540",
+    "name": "Tedua - Palasport 2027",
+    "date": "2027-01-28",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palazzo dello Sport",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e306",
     "name": "aespa LIVE TOUR – SYNK : COMPLæXITY – in MILAN",
     "date": "2027-01-29",
@@ -4281,6 +4347,17 @@
   {
     "id": "e307",
     "name": "Tedua - TED RYAN TOUR",
+    "date": "2027-01-31",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Unipol Forum",
+    "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e541",
+    "name": "Tedua - Palasport 2027",
     "date": "2027-01-31",
     "start": "21:00",
     "status": "scheduled",
@@ -4902,6 +4979,17 @@
     "status": "scheduled",
     "venue": "Gran Teatro GEOX",
     "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e542",
+    "name": "DAMIEN RICE",
+    "date": "2027-04-04",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Auditorium Conciliazione",
+    "city": "Roma",
     "category": "Concert",
     "organiser": "Not available"
   },
