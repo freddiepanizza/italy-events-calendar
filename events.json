@@ -1947,6 +1947,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e544",
+    "name": "Calibro 35 vs. L.A. | JAZZMI 2026",
+    "date": "2026-11-08",
+    "start": "23:00",
+    "status": "scheduled",
+    "venue": "Teatro dell'Arte - Triennale Milano",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e144",
     "name": "Marc Ribot, Farida Amadou e Ches Smith / Valerio Daniele, Giorgio Distante e Dario Congedo trio",
     "date": "2026-11-09",
@@ -3190,6 +3201,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e543",
+    "name": "Bologna FC 1909 vs AS Roma",
+    "date": "2026-12-04",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Renato Dall'Ara",
+    "city": "Bologna",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e235",
     "name": "Cesare Cremonini - AMATOUR",
     "date": "2026-12-04",
@@ -3329,6 +3351,17 @@
     "status": "scheduled",
     "venue": "Teatro Cristallo",
     "city": "Bolzano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e545",
+    "name": "Little Pieces Of Marmelade + Guest",
+    "date": "2026-12-05",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Vidia Club",
+    "city": "Cesena",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -4455,6 +4488,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e546",
+    "name": "Comedy Tragedy Parody - Dominic Fike in Europe",
+    "date": "2027-02-15",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Alcatraz",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e313",
     "name": "CAGE THE ELEPHANT",
     "date": "2027-02-17",
@@ -5071,6 +5115,28 @@
     "organiser": "Not available"
   },
   {
+    "id": "e547",
+    "name": "FIORELLA MANNOIA",
+    "date": "2027-04-13",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Teatro Clerici",
+    "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e548",
+    "name": "FIORELLA MANNOIA",
+    "date": "2027-04-14",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e493",
     "name": "FRANCESCO DE GREGORI",
     "date": "2027-04-15",
@@ -5276,6 +5342,17 @@
     "status": "scheduled",
     "venue": "Palapartenope",
     "city": "Napoli",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e549",
+    "name": "ANGÈLE – INSTINCT TOUR",
+    "date": "2027-05-13",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Fabrique",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5676,6 +5753,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e550",
+    "name": "STING 3.0 | Roma Summer Fest",
+    "date": "2027-07-02",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Auditorium Parco della Musica Ennio Morricone",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e400",
     "name": "GroundUp Alberobello 2027 - 3 DAYS MAIN STAGE PASS ",
     "date": "2027-07-02",
@@ -5716,6 +5804,28 @@
     "status": "scheduled",
     "venue": "Stadio San Filippo Franco Scoglio",
     "city": "Messina",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e551",
+    "name": "STING 3.0",
+    "date": "2027-07-04",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Piazza Alfieri",
+    "city": "Asti",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e552",
+    "name": "STING 3.0",
+    "date": "2027-07-06",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Arena di Verona",
+    "city": "Verona",
     "category": "Concert",
     "organiser": "Not available"
   },
