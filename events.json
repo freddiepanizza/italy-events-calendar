@@ -3487,6 +3487,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e569",
+    "name": "ACF Fiorentina vs Cagliari Calcio",
+    "date": "2026-12-07",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Artemio Franchi",
+    "city": "Firenze",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e244",
     "name": "Lisa Agnelli Pop Rock Concert",
     "date": "2026-12-07",
@@ -4110,6 +4121,17 @@
     "status": "scheduled",
     "venue": "Inalpi Arena",
     "city": "Torino",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e570",
+    "name": "Samuele Rizzuto - Note di Lavanda",
+    "date": "2026-12-21",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Sala dei Giganti - Palazzo Liviano",
+    "city": "Padova",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -4796,6 +4818,28 @@
     "organiser": "Not available"
   },
   {
+    "id": "e571",
+    "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
+    "date": "2027-03-02",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Mandela Forum",
+    "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e572",
+    "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
+    "date": "2027-03-03",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Mandela Forum",
+    "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e502",
     "name": "ROYAL BLOOD",
     "date": "2027-03-05",
@@ -4836,6 +4880,17 @@
     "status": "scheduled",
     "venue": "Teatro Diego Fabbri",
     "city": "Forlì",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e573",
+    "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
+    "date": "2027-03-08",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Inalpi Arena",
+    "city": "Torino",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5342,6 +5397,28 @@
     "status": "scheduled",
     "venue": "PalaPrometeo Estra",
     "city": "Ancona",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e574",
+    "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
+    "date": "2027-04-24",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palazzo dello Sport",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e575",
+    "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
+    "date": "2027-04-25",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palazzo dello Sport",
+    "city": "Roma",
     "category": "Concert",
     "organiser": "Not available"
   },
