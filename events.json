@@ -4642,6 +4642,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e576",
+    "name": "Cristina Donà",
+    "date": "2027-02-13",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Spazio Teatro 89",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e546",
     "name": "Comedy Tragedy Parody - Dominic Fike in Europe",
     "date": "2027-02-15",
@@ -4785,6 +4796,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e577",
+    "name": "PFM - On The Road Again",
+    "date": "2027-02-26",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e325",
     "name": "Gabry Ponte - CIRCOTRON - The dance show",
     "date": "2027-02-27",
@@ -4814,6 +4836,17 @@
     "status": "scheduled",
     "venue": "Magazzini Generali",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e578",
+    "name": "PFM - On The Road Again",
+    "date": "2027-02-27",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Clerici",
+    "city": "Brescia",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5632,6 +5665,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e579",
+    "name": "Carl Brave - Un'altra stupida Odissea",
+    "date": "2027-05-16",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e373",
     "name": "ELODIE SHOW 2027",
     "date": "2027-05-18",
@@ -5797,6 +5841,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e580",
+    "name": "SLAM DUNK ITALY 2027 con SIMPLE PLAN, THE INTERRUPTERS, BILLY TALENT, The Suicide Machines and more",
+    "date": "2027-06-11",
+    "start": "15:30",
+    "status": "scheduled",
+    "venue": "Kozel Carroponte",
+    "city": "Sesto San Giovanni",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e384",
     "name": "VASCO RESIDENCY SHOW - ROMA 2027",
     "date": "2027-06-11",
@@ -5804,6 +5859,17 @@
     "status": "scheduled",
     "venue": "Stadio Olimpico di Roma",
     "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e581",
+    "name": "SLAM DUNK ITALY After Party",
+    "date": "2027-06-11",
+    "start": "23:30",
+    "status": "scheduled",
+    "venue": "Carro Social Club (ex Il Maglio)",
+    "city": "Sesto San Giovanni",
     "category": "Concert",
     "organiser": "Not available"
   },
