@@ -4719,6 +4719,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e583",
+    "name": "MIKE ZITO IN CONCERT",
+    "date": "2027-02-22",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Circolo ADMR Chiari",
+    "city": "Chiari (Brescia)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e318",
     "name": "LAGWAGON",
     "date": "2027-02-23",
@@ -4748,6 +4759,17 @@
     "status": "scheduled",
     "venue": "Mandela Forum",
     "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e584",
+    "name": "Klangphonics",
+    "date": "2027-02-24",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Fabrique",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5870,6 +5892,17 @@
     "status": "scheduled",
     "venue": "Stadio Olimpico di Roma",
     "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e585",
+    "name": "King Gizzard and The Lizard Wizard",
+    "date": "2027-06-11",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Sequoie Music Park - Parco delle Caserme Rosse",
+    "city": "Bologna",
     "category": "Concert",
     "organiser": "Not available"
   },
