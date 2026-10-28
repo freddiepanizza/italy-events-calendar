@@ -4895,6 +4895,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e586",
+    "name": "TAURO BOYS - REBIRTH",
+    "date": "2027-03-03",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Milano",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e502",
     "name": "ROYAL BLOOD",
     "date": "2027-03-05",
@@ -5011,6 +5022,17 @@
     "start": "20:00",
     "status": "scheduled",
     "venue": "Palazzo dello Sport",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e587",
+    "name": "TAURO BOYS - REBIRTH",
+    "date": "2027-03-12",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Roma",
     "city": "Roma",
     "category": "Concert",
     "organiser": "Not available"
@@ -6105,6 +6127,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e588",
+    "name": "BEIRUT - ROMA SUMMER FEST",
+    "date": "2027-07-01",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Auditorium Parco della Musica Ennio Morricone",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e399",
     "name": "GroundUp Alberobello 2027 - 3 DAYS ALL-IN PASS",
     "date": "2027-07-02",
@@ -6134,6 +6167,28 @@
     "status": "scheduled",
     "venue": "Villa Donnaloja",
     "city": "Alberobello (Bari)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e589",
+    "name": "BEIRUT",
+    "date": "2027-07-02",
+    "start": "21:30",
+    "status": "scheduled",
+    "venue": "Sequoie Music Park - Parco delle Caserme Rosse",
+    "city": "Bologna",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e590",
+    "name": "Beirut",
+    "date": "2027-07-03",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Circolo Magnolia",
+    "city": "Segrate (Milano)",
     "category": "Concert",
     "organiser": "Not available"
   },
