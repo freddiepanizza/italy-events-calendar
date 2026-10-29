@@ -3795,6 +3795,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e591",
+    "name": "SS Lazio vs AS Roma",
+    "date": "2026-12-13",
+    "start": "12:30",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e261",
     "name": "Marco Mengoni - Residency Allo Sbagliato",
     "date": "2026-12-13",
@@ -4906,6 +4917,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e592",
+    "name": "TAURO BOYS - REBIRTH",
+    "date": "2027-03-03",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Alcatraz",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e502",
     "name": "ROYAL BLOOD",
     "date": "2027-03-05",
@@ -5033,6 +5055,17 @@
     "start": "21:00",
     "status": "scheduled",
     "venue": "Roma",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e593",
+    "name": "TAURO BOYS - REBIRTH",
+    "date": "2027-03-12",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palazzo San Lorenzo",
     "city": "Roma",
     "category": "Concert",
     "organiser": "Not available"
@@ -5214,6 +5247,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e594",
+    "name": "ASCO - Symphony of CAOS",
+    "date": "2027-03-26",
+    "start": "21:30",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e348",
     "name": "SIENNA SPIRO: My House Tour",
     "date": "2027-03-27",
@@ -5342,6 +5386,17 @@
     "status": "scheduled",
     "venue": "Santeria Toscana 31",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e595",
+    "name": "ASCO - Symphony of CAOS",
+    "date": "2027-04-09",
+    "start": "21:30",
+    "status": "scheduled",
+    "venue": "Teatro Cartiere Carrara (ex Tuscany Hall)",
+    "city": "Firenze",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5533,6 +5588,28 @@
     "organiser": "Not available"
   },
   {
+    "id": "e596",
+    "name": "  FRONTIERS ROCK FESTIVAL - Abbonamento 3 Giorni ",
+    "date": "2027-04-30",
+    "start": "14:30",
+    "status": "scheduled",
+    "venue": "Live Club",
+    "city": "Trezzo Sull'Adda",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e597",
+    "name": "FRONTIERS ROCK FESTIVAL - Day 1",
+    "date": "2027-04-30",
+    "start": "14:30",
+    "status": "scheduled",
+    "venue": "Live Club",
+    "city": "Trezzo Sull'Adda",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e565",
     "name": "ELODIE SHOW 2027",
     "date": "2027-04-30",
@@ -5540,6 +5617,17 @@
     "status": "scheduled",
     "venue": "Palazzo dello Sport",
     "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e598",
+    "name": "ASCO - Symphony of CAOS",
+    "date": "2027-04-30",
+    "start": "21:30",
+    "status": "scheduled",
+    "venue": "Casa Della Musica Federico I",
+    "city": "Napoli",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5555,6 +5643,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e599",
+    "name": "FRONTIERS ROCK FESTIVAL - Day 2",
+    "date": "2027-05-01",
+    "start": "14:30",
+    "status": "scheduled",
+    "venue": "Live Club",
+    "city": "Trezzo Sull'Adda",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e529",
     "name": "GUÈ – LIVE 2027",
     "date": "2027-05-01",
@@ -5562,6 +5661,17 @@
     "status": "scheduled",
     "venue": "Palazzo del Turismo Jesolo",
     "city": "Lido Di Jesolo",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e600",
+    "name": "FRONTIERS ROCK FESTIVAL - Day 3",
+    "date": "2027-05-02",
+    "start": "14:30",
+    "status": "scheduled",
+    "venue": "Live Club",
+    "city": "Trezzo Sull'Adda",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6277,6 +6387,17 @@
     "status": "scheduled",
     "venue": "Villa Erba",
     "city": "Cernobbio (Como)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e601",
+    "name": "THE NEIGHBOURHOOD",
+    "date": "2027-07-13",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Arena delle Cornacchie - Parco delle Cascine",
+    "city": "Firenze",
     "category": "Concert",
     "organiser": "Not available"
   },
