@@ -3828,6 +3828,28 @@
     "organiser": "Not available"
   },
   {
+    "id": "e602",
+    "name": "Atalanta BC vs Genoa CFC",
+    "date": "2026-12-14",
+    "start": "18:30",
+    "status": "scheduled",
+    "venue": "Gewiss Stadium",
+    "city": "Bergamo",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e603",
+    "name": "Juventus FC vs AC Monza",
+    "date": "2026-12-14",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Allianz Stadium",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e263",
     "name": "ARISA LIVE TOUR",
     "date": "2026-12-14",
@@ -4598,6 +4620,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e604",
+    "name": "Noah Gundersen",
+    "date": "2027-02-07",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Circolo Magnolia",
+    "city": "Segrate (Milano)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e310",
     "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
     "date": "2027-02-08",
@@ -5093,6 +5126,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e605",
+    "name": "Cigno",
+    "date": "2027-03-13",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Vidia Club",
+    "city": "Cesena",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e336",
     "name": "GIANNA NANNINI | GIANNAGOLD",
     "date": "2027-03-15",
@@ -5412,6 +5456,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e606",
+    "name": "MODA' - Altalena Tour 2027",
+    "date": "2027-04-10",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "PalaPrometeo Estra",
+    "city": "Ancona",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e360",
     "name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
     "date": "2027-04-11",
@@ -5430,6 +5485,17 @@
     "status": "scheduled",
     "venue": "Inalpi Arena",
     "city": "Torino",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e607",
+    "name": "MODA' - Altalena Tour 2027",
+    "date": "2027-04-13",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "ChorusLife Arena",
+    "city": "Bergamo",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5463,6 +5529,17 @@
     "status": "scheduled",
     "venue": "TeatroTeam - Bari",
     "city": "Bari",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e608",
+    "name": "MODA' - Altalena Tour 2027",
+    "date": "2027-04-15",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Unipol Forum",
+    "city": "Assago",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5522,6 +5599,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e609",
+    "name": "MODA' - Altalena Tour 2027",
+    "date": "2027-04-21",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palazzo dello Sport",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e366",
     "name": "ELODIE SHOW 2027",
     "date": "2027-04-24",
@@ -5540,6 +5628,17 @@
     "status": "scheduled",
     "venue": "Palazzo dello Sport",
     "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e610",
+    "name": "MODA' - Altalena Tour 2027",
+    "date": "2027-04-24",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Mandela Forum",
+    "city": "Firenze",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5566,6 +5665,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e611",
+    "name": "MODA' - Altalena Tour 2027",
+    "date": "2027-04-26",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "PalaGeorge",
+    "city": "Montichiari (Brescia)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e527",
     "name": "Dinosaur Pile-Up",
     "date": "2027-04-28",
@@ -5573,6 +5683,17 @@
     "status": "scheduled",
     "venue": "SPAZIO COMBO - SUONERIA",
     "city": "Settimo Torinese",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e612",
+    "name": "MODA' - Altalena Tour 2027",
+    "date": "2027-04-28",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Kioene Arena",
+    "city": "Padova",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6332,6 +6453,17 @@
     "status": "scheduled",
     "venue": "Stadio San Filippo Franco Scoglio",
     "city": "Messina",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e613",
+    "name": "NOAH KAHAN - Noah Kahan: The Last Of The Bugs World Tour | I-Days Milano 2027",
+    "date": "2027-07-04",
+    "start": "16:00",
+    "status": "scheduled",
+    "venue": "Ippodromo SNAI San Siro",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
