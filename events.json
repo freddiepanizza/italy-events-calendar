@@ -4191,6 +4191,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e614",
+    "name": "VOLNEY MORGAN - JAZZAMORE 2026",
+    "date": "2026-12-21",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Auditorium Unical",
+    "city": "Rende",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e284",
     "name": "Fabio Concato in \"Altro Di Me\"",
     "date": "2026-12-21",
@@ -4440,6 +4451,17 @@
     "status": "scheduled",
     "venue": "Estragon",
     "city": "Bologna",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e615",
+    "name": "Michele Bravi",
+    "date": "2027-01-22",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
     "category": "Concert",
     "organiser": "Not available"
   },
