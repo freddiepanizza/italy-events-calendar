@@ -2783,6 +2783,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e616",
+    "name": "HANS ZIMMER Tribute by Ensemble Symphony Orchestra",
+    "date": "2026-11-24",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Regio",
+    "city": "Parma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e201",
     "name": "Malika Ayane",
     "date": "2026-11-24",
@@ -5159,6 +5170,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e617",
+    "name": "TAURO BOYS - REBIRTH",
+    "date": "2027-03-13",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palazzo San Lorenzo",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e336",
     "name": "GIANNA NANNINI | GIANNAGOLD",
     "date": "2027-03-15",
@@ -6376,6 +6398,17 @@
     "status": "scheduled",
     "venue": "Stadio Euganeo",
     "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e618",
+    "name": "QUEENS OF THE STONE AGE",
+    "date": "2027-06-27",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Parco San Valentino",
+    "city": "Pordenone",
     "category": "Concert",
     "organiser": "Not available"
   },
