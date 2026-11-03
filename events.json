@@ -4994,6 +4994,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e619",
+    "name": "Giovanni Allevi - Piano Solo Tour 2027",
+    "date": "2027-03-03",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Regio",
+    "city": "Parma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e502",
     "name": "ROYAL BLOOD",
     "date": "2027-03-05",
@@ -5390,6 +5401,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e620",
+    "name": "Giovanni Allevi - Piano Solo Tour 2027",
+    "date": "2027-04-02",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Teatro Clerici",
+    "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e352",
     "name": "GIANNA NANNINI | GIANNAGOLD",
     "date": "2027-04-03",
@@ -5441,6 +5463,17 @@
     "status": "scheduled",
     "venue": "PalaFlorio",
     "city": "Bari",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e621",
+    "name": "Giovanni Allevi - Piano Solo Tour 2027",
+    "date": "2027-04-06",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6534,6 +6567,28 @@
     "organiser": "Not available"
   },
   {
+    "id": "e622",
+    "name": "KNEECAP – Sherwood Festival",
+    "date": "2027-07-04",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Park Nord Stadio Euganeo",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e623",
+    "name": "KNEECAP",
+    "date": "2027-07-05",
+    "start": "22:00",
+    "status": "scheduled",
+    "venue": "Flowers Festival",
+    "city": "Collegno (Torino)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e552",
     "name": "STING 3.0",
     "date": "2027-07-06",
@@ -6629,6 +6684,17 @@
     "status": "scheduled",
     "venue": "Riviera dei Tramonti - Lungomare Falcone e Borsellino",
     "city": "Lamezia Terme",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e624",
+    "name": "J-AX - Live 2027",
+    "date": "2027-09-10",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Kozel Carroponte",
+    "city": "Sesto San Giovanni",
     "category": "Concert",
     "organiser": "Not available"
   },
