@@ -4070,6 +4070,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e625",
+    "name": "AC Milan vs Como 1907",
+    "date": "2026-12-19",
+    "start": "18:00",
+    "status": "scheduled",
+    "venue": "San Siro",
+    "city": "Milano",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e457",
     "name": "LIVE LOUNGE | Christmas Night",
     "date": "2026-12-19",
@@ -4090,6 +4101,17 @@
     "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
+  },
+  {
+    "id": "e626",
+    "name": "AS Roma vs Juventus FC",
+    "date": "2026-12-19",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
   },
   {
     "id": "e278",
@@ -5467,6 +5489,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e627",
+    "name": "Marco Masini",
+    "date": "2027-04-06",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Team",
+    "city": "Bari",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e621",
     "name": "Giovanni Allevi - Piano Solo Tour 2027",
     "date": "2027-04-06",
@@ -5544,6 +5577,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e628",
+    "name": "Marco Masini",
+    "date": "2027-04-10",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Teatro Clerici",
+    "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e360",
     "name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
     "date": "2027-04-11",
@@ -5617,6 +5661,17 @@
     "status": "scheduled",
     "venue": "Unipol Forum",
     "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e629",
+    "name": "FRANCESCO DE GREGORI",
+    "date": "2027-04-15",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Team",
+    "city": "Bari",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6046,6 +6101,17 @@
     "status": "scheduled",
     "venue": "Mandela Forum",
     "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e630",
+    "name": "Marco Masini - Teatri 2027",
+    "date": "2027-05-18",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "ChorusLife Arena",
+    "city": "Bergamo",
     "category": "Concert",
     "organiser": "Not available"
   },
