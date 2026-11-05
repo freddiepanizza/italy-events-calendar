@@ -2024,6 +2024,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e634",
+    "name": "Mauro Ermanno Giovanardi  + Special Guests",
+    "date": "2026-11-09",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Santeria Toscana 31",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e147",
     "name": "Paolo Fresu “Heroes\" / Francesco Negro Trio",
     "date": "2026-11-10",
@@ -2328,6 +2339,17 @@
     "status": "scheduled",
     "venue": "Casa Della Musica Federico I",
     "city": "Napoli",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e635",
+    "name": "Malika Ayane",
+    "date": "2026-11-16",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palatour Frecciarossa",
+    "city": "Bitritto",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -3201,6 +3223,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e636",
+    "name": "ARISA LIVE TOUR",
+    "date": "2026-12-02",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palatour Frecciarossa",
+    "city": "Bitritto",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e468",
     "name": "Live Session - Allo Sbagliato | faccianuvola, Settembre, Anna and the Vulkan,  Mazzariello, Primogenito",
     "date": "2026-12-03",
@@ -3667,6 +3700,17 @@
     "name": "RAIZ e RADICANTO - Musica Immaginaria Mediterranea",
     "date": "2026-12-10",
     "start": "21:15",
+    "status": "scheduled",
+    "venue": "Teatro Apollo",
+    "city": "Lecce",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e637",
+    "name": "MARIELLA NAVA - Note di Donna",
+    "date": "2026-12-10",
+    "start": "21:20",
     "status": "scheduled",
     "venue": "Teatro Apollo",
     "city": "Lecce",
@@ -4169,6 +4213,39 @@
     "organiser": "Not available"
   },
   {
+    "id": "e631",
+    "name": "ACF Fiorentina vs Bologna FC 1909",
+    "date": "2026-12-20",
+    "start": "12:30",
+    "status": "scheduled",
+    "venue": "Stadio Artemio Franchi",
+    "city": "Firenze",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e632",
+    "name": "Torino FC vs Cagliari Calcio",
+    "date": "2026-12-20",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico Grande Torino",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e633",
+    "name": "Atalanta BC vs SSC Napoli",
+    "date": "2026-12-20",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Gewiss Stadium",
+    "city": "Bergamo",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e281",
     "name": "ANNA | MILLION DOLLAR BABE TOUR 2026",
     "date": "2026-12-20",
@@ -4517,6 +4594,17 @@
     "status": "scheduled",
     "venue": "Unipol Arena",
     "city": "Casalecchio Di Reno (Bologna)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e638",
+    "name": "Noche de Travesura",
+    "date": "2027-01-23",
+    "start": "22:00",
+    "status": "scheduled",
+    "venue": "Vidia Club",
+    "city": "Cesena",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6710,6 +6798,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e639",
+    "name": "Kingfishr | Roma Summer Fest",
+    "date": "2027-07-13",
+    "start": "22:00",
+    "status": "scheduled",
+    "venue": "Auditorium Parco della Musica Ennio Morricone",
+    "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e406",
     "name": "SOMBR // You Are The Reason Tour // MILAN | I-Days Milano 2027",
     "date": "2027-07-14",
@@ -6717,6 +6816,17 @@
     "status": "scheduled",
     "venue": "Ippodromo SNAI San Siro",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e640",
+    "name": "Kingfishr",
+    "date": "2027-07-14",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Sequoie Music Park - Parco delle Caserme Rosse",
+    "city": "Bologna",
     "category": "Concert",
     "organiser": "Not available"
   },
