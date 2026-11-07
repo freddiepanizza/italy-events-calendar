@@ -6512,6 +6512,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e646",
+    "name": "KID YUGI – LA RESA DEI CONTI 2027",
+    "date": "2027-06-19",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Fiera Milano Live",
+    "city": "Rho",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e393",
     "name": "VASCO RESIDENCY SHOW - ROMA 2027",
     "date": "2027-06-20",
@@ -6893,6 +6904,17 @@
     "status": "scheduled",
     "venue": "Riviera dei Tramonti - Lungomare Falcone e Borsellino",
     "city": "Lamezia Terme",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e647",
+    "name": "Midnight Generation - Rooted Tour 2027",
+    "date": "2027-09-09",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Circolo Magnolia",
+    "city": "Segrate (Milano)",
     "category": "Concert",
     "organiser": "Not available"
   },
