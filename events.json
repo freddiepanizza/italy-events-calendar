@@ -5731,6 +5731,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e648",
+    "name": "MILLE AL SUPERCLUB",
+    "date": "2027-04-14",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Alcatraz",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e548",
     "name": "FIORELLA MANNOIA",
     "date": "2027-04-14",
@@ -5936,6 +5947,17 @@
     "status": "scheduled",
     "venue": "Palazzo dello Sport",
     "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e649",
+    "name": "Marco Masini - Teatri 2027",
+    "date": "2027-04-29",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6732,6 +6754,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e650",
+    "name": "Andrea Bocelli",
+    "date": "2027-07-03",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Reggia di Portici",
+    "city": "Portici (Napoli)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e613",
     "name": "NOAH KAHAN - Noah Kahan: The Last Of The Bugs World Tour | I-Days Milano 2027",
     "date": "2027-07-04",
@@ -6948,6 +6981,17 @@
     "status": "scheduled",
     "venue": "RCF ARENA REGGIO EMILIA",
     "city": "Reggio Emilia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e651",
+    "name": "Andrea Bocelli",
+    "date": "2027-09-25",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Albergo dell'Agenzia",
+    "city": "Pollenzo (Cuneo)",
     "category": "Concert",
     "organiser": "Not available"
   },
