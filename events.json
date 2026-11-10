@@ -4543,6 +4543,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e652",
+    "name": "Erykah Badu IMEHO \"An Intimate Experience with Erykah Badu”",
+    "date": "2027-01-15",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Teatro Dal Verme",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e301",
     "name": "Tedua - TED RYAN TOUR",
     "date": "2027-01-21",
@@ -4730,6 +4741,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e653",
+    "name": "LIVEPLAY - LIVE IN THEATER",
+    "date": "2027-01-31",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Hall",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e308",
     "name": "FAKE NAMES + Guests",
     "date": "2027-02-01",
@@ -4890,6 +4912,17 @@
     "start": "21:00",
     "status": "scheduled",
     "venue": "Magazzini Generali",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e654",
+    "name": "LIVEPLAY - LIVE IN THEATER",
+    "date": "2027-02-20",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Pime",
     "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
@@ -5467,6 +5500,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e655",
+    "name": "CHASE MATTHEW",
+    "date": "2027-03-26",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Santeria Toscana 31",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e594",
     "name": "ASCO - Symphony of CAOS",
     "date": "2027-03-26",
@@ -5815,6 +5859,17 @@
     "status": "scheduled",
     "venue": "Unipol Arena",
     "city": "Casalecchio Di Reno (Bologna)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e656",
+    "name": "LIVEPLAY - LIVE IN THEATER",
+    "date": "2027-04-17",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Astra",
+    "city": "Schio (Vicenza)",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6255,6 +6310,17 @@
     "status": "scheduled",
     "venue": "PalaFlorio",
     "city": "Bari",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e657",
+    "name": "Fall Out Boy: Twilight of the Punks",
+    "date": "2027-05-21",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Unipol Forum",
+    "city": "Assago",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6776,6 +6842,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e658",
+    "name": "Noah Kahan: The Last Of The Bugs World Tour | I-Days Milano 2027",
+    "date": "2027-07-04",
+    "start": "16:00",
+    "status": "scheduled",
+    "venue": "Ippodromo SNAI San Siro",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e551",
     "name": "STING 3.0",
     "date": "2027-07-04",
@@ -6827,6 +6904,17 @@
     "status": "scheduled",
     "venue": "Flowers Festival",
     "city": "Collegno (Torino)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e659",
+    "name": "Willie Peyote – Sherwood Festival",
+    "date": "2027-07-07",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Park Nord Stadio Euganeo",
+    "city": "Padova",
     "category": "Concert",
     "organiser": "Not available"
   },
