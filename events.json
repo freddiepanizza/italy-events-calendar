@@ -5214,6 +5214,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e660",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-08",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Politeama Genovese",
+    "city": "Genova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e329",
     "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
     "date": "2027-03-09",
@@ -5265,6 +5276,17 @@
     "status": "scheduled",
     "venue": "Lime Milano",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e661",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-11",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Auditorium Conciliazione",
+    "city": "Roma",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5346,6 +5368,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e662",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-13",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Politeama Piacenza",
+    "city": "Piacenza",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e336",
     "name": "GIANNA NANNINI | GIANNAGOLD",
     "date": "2027-03-15",
@@ -5353,6 +5386,17 @@
     "status": "scheduled",
     "venue": "Unipol Forum",
     "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e663",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-16",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "EuropAuditorium",
+    "city": "Bologna",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5375,6 +5419,17 @@
     "status": "scheduled",
     "venue": "Unipol Dome",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e664",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-19",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Teatro INTRED di Varese",
+    "city": "Varese",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5467,6 +5522,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e665",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-22",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Augusteo",
+    "city": "Napoli",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e345",
     "name": "Massimo Pericolo - Live Palazzetti",
     "date": "2027-03-23",
@@ -5489,6 +5555,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e666",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-23",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Carlo Gesualdo",
+    "city": "Avellino",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e347",
     "name": "Gianna Nannini | GIANNAGOLD",
     "date": "2027-03-25",
@@ -5500,6 +5577,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e667",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-25",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "ChorusLife Arena",
+    "city": "Bergamo",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e655",
     "name": "CHASE MATTHEW",
     "date": "2027-03-26",
@@ -5507,6 +5595,17 @@
     "status": "scheduled",
     "venue": "Santeria Toscana 31",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e668",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-26",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Malibran",
+    "city": "Venezia",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -5533,6 +5632,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e669",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-27",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Politeama Rossetti",
+    "city": "Trieste",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e349",
     "name": "Gianna Nannini | GIANNAGOLD",
     "date": "2027-03-29",
@@ -5540,6 +5650,28 @@
     "status": "scheduled",
     "venue": "Palazzo del Turismo Jesolo",
     "city": "Lido Di Jesolo",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e670",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-30",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro degli Arcimboldi",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e671",
+    "name": "Subsonica a Teatro",
+    "date": "2027-03-31",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Teatro Colosseo di Torino",
+    "city": "Torino",
     "category": "Concert",
     "organiser": "Not available"
   },
