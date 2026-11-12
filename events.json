@@ -4774,6 +4774,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e672",
+    "name": "Nocturnal Depression",
+    "date": "2027-02-04",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "SPAZIO COMBO - SUONERIA",
+    "city": "Settimo Torinese",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e309",
     "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
     "date": "2027-02-05",
@@ -6017,6 +6028,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e673",
+    "name": "BLUVERTIGO - metallo non metallo / 1997-2027",
+    "date": "2027-04-20",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "VOX Club",
+    "city": "Nonantola",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e365",
     "name": "ANTONELLO VENDITTI – IN QUESTO MONDO GLI ESSERI PIU’ UMANI SONO GLI ANIMALI",
     "date": "2027-04-21",
@@ -6783,6 +6805,17 @@
     "status": "scheduled",
     "venue": "Unipol Forum",
     "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e674",
+    "name": "NEUROSIS | BOP 2027",
+    "date": "2027-06-23",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Anfiteatro degli Scavi",
+    "city": "Pompei (Na)",
     "category": "Concert",
     "organiser": "Not available"
   },
