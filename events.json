@@ -3003,6 +3003,17 @@
     "organiser": "Lega Serie A"
   },
   {
+    "id": "e675",
+    "name": "Davide Boosta Dileo",
+    "date": "2026-11-28",
+    "start": "18:30",
+    "status": "scheduled",
+    "venue": "Coro di Santa Pelagia",
+    "city": "Torino",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e214",
     "name": "Marco Mengoni - Residency Allo Sbagliato",
     "date": "2026-11-28",
@@ -4092,6 +4103,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e676",
+    "name": "ADI OASIS, FreshMula, Il Mago del Gelato - Allo Sbagliato",
+    "date": "2026-12-18",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Allo Sbagliato - Teatro Principe",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e276",
     "name": "Cesare Cremonini - AMATOUR",
     "date": "2026-12-18",
@@ -4110,6 +4132,17 @@
     "status": "scheduled",
     "venue": "Legend Club",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e677",
+    "name": "Davide Boosta Dileo",
+    "date": "2026-12-18",
+    "start": "21:30",
+    "status": "scheduled",
+    "venue": "Museo Mitoraj",
+    "city": "Pietrasanta",
     "category": "Concert",
     "organiser": "Not available"
   },
