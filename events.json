@@ -5544,6 +5544,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e678",
+    "name": "BLUVERTIGO - metallo non metallo / 1997-2027",
+    "date": "2027-03-20",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "VOX Club",
+    "city": "Nonantola",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e343",
     "name": "NOMADI - Live",
     "date": "2027-03-20",
@@ -5727,6 +5738,17 @@
     "status": "scheduled",
     "venue": "Palazzo dello Sport",
     "city": "Roma",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e679",
+    "name": "Subsonica a Teatro",
+    "date": "2027-04-01",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Teatro Colosseo di Torino",
+    "city": "Torino",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6574,6 +6596,17 @@
     "status": "scheduled",
     "venue": "Teatro Clerici",
     "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e680",
+    "name": "NOGA EREZ // DUCK SEASON TOUR 2027",
+    "date": "2027-05-30",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Alcatraz",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
