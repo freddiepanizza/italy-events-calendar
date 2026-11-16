@@ -4587,6 +4587,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e681",
+    "name": "Federico Mecozzi - Traiettore impercettibili",
+    "date": "2027-01-20",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Camploy",
+    "city": "Verona",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e301",
     "name": "Tedua - TED RYAN TOUR",
     "date": "2027-01-21",
@@ -6919,6 +6930,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e682",
+    "name": "FOO FIGHTERS, QUEENS OF THE STONE AGE, FAT DOG + TBA | FIRENZE ROCKS 2027",
+    "date": "2027-06-25",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Ippodromo del Visarno",
+    "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e397",
     "name": "VASCO RESIDENCY SHOW - ROMA 2027",
     "date": "2027-06-25",
@@ -6930,6 +6952,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e683",
+    "name": "EVANESCENCE + TBA | FIRENZE ROCKS 2027",
+    "date": "2027-06-26",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Ippodromo del Visarno",
+    "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e398",
     "name": "Achille Lauro - Per Sempre Noi - Stadi 2027 ",
     "date": "2027-06-26",
@@ -6937,6 +6970,17 @@
     "status": "scheduled",
     "venue": "Stadio Euganeo",
     "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e684",
+    "name": "PLACEBO & FAITH NO MORE + TBA | FIRENZE ROCKS 2027",
+    "date": "2027-06-27",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Ippodromo del Visarno",
+    "city": "Firenze",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -7370,6 +7414,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e685",
+    "name": "PER MIRIA 22SIMBA LIVE AL FORUM",
+    "date": "2027-10-20",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Unipol Forum",
+    "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e454",
     "name": "EMMA - LIVE 2027",
     "date": "2027-10-25",
@@ -7428,6 +7483,28 @@
     "id": "e645",
     "name": "SENZA CRI - Live 2027",
     "date": "2027-11-26",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Santeria Toscana 31",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e686",
+    "name": "ANTONIA - Live 2027",
+    "date": "2027-12-04",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Duel Club",
+    "city": "Pozzuoli (Napoli)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e687",
+    "name": "ANTONIA - Live 2027",
+    "date": "2027-12-06",
     "start": "21:00",
     "status": "scheduled",
     "venue": "Santeria Toscana 31",
