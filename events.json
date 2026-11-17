@@ -2651,6 +2651,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e688",
+    "name": "KORN + Architects + Pixel Grip",
+    "date": "2026-11-21",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Unipol Forum",
+    "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e192",
     "name": "LEVARA",
     "date": "2026-11-21",
@@ -4587,6 +4598,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e689",
+    "name": "Carpathian Forest",
+    "date": "2027-01-16",
+    "start": "19:00",
+    "status": "scheduled",
+    "venue": "Slaughter Club",
+    "city": "Paderno Dugnano (Milano)",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e681",
     "name": "Federico Mecozzi - Traiettore impercettibili",
     "date": "2027-01-20",
@@ -5430,6 +5452,17 @@
     "status": "scheduled",
     "venue": "Teatro Politeama Piacenza",
     "city": "Piacenza",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e690",
+    "name": "THE DELINES",
+    "date": "2027-03-13",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Circolo ADMR Chiari",
+    "city": "Chiari (Brescia)",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -7425,6 +7458,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e691",
+    "name": "22simba - Per Miria Live al Forum",
+    "date": "2027-10-20",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Unipol Forum",
+    "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e454",
     "name": "EMMA - LIVE 2027",
     "date": "2027-10-25",
@@ -7469,6 +7513,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e692",
+    "name": "Diodato",
+    "date": "2027-11-23",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e644",
     "name": "SENZA CRI - Live 2027",
     "date": "2027-11-25",
@@ -7487,6 +7542,17 @@
     "status": "scheduled",
     "venue": "Santeria Toscana 31",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e693",
+    "name": "Diodato",
+    "date": "2027-12-03",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palatour Frecciarossa",
+    "city": "Bitritto",
     "category": "Concert",
     "organiser": "Not available"
   },
