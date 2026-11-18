@@ -4499,6 +4499,39 @@
     "organiser": "Not available"
   },
   {
+    "id": "e694",
+    "name": "Torino FC vs Venezia FC",
+    "date": "2027-01-02",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico Grande Torino",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e695",
+    "name": "ACF Fiorentina vs SS Lazio",
+    "date": "2027-01-02",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Artemio Franchi",
+    "city": "Firenze",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e696",
+    "name": "AS Roma vs Frosinone Calcio",
+    "date": "2027-01-02",
+    "start": "18:00",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico",
+    "city": "Roma",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e294",
     "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
     "date": "2027-01-03",
@@ -4913,6 +4946,17 @@
     "status": "scheduled",
     "venue": "Locomotiv Club",
     "city": "Bologna",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e697",
+    "name": "Ghinzu - WOWA EURO TOUR 2027",
+    "date": "2027-02-11",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Santeria Toscana 31",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -6963,8 +7007,30 @@
     "organiser": "Not available"
   },
   {
+    "id": "e698",
+    "name": "FOO FIGHTERS, QUEENS OF THE STONE AGE, FAT DOG + TBA | FIRENZE ROCKS 2027",
+    "date": "2027-06-25",
+    "start": "14:30",
+    "status": "scheduled",
+    "venue": "Ippodromo del Visarno",
+    "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e682",
     "name": "FOO FIGHTERS, QUEENS OF THE STONE AGE, FAT DOG + TBA | FIRENZE ROCKS 2027",
+    "date": "2027-06-25",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Ippodromo del Visarno",
+    "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e699",
+    "name": " Season 3-days Pass | FIRENZE ROCKS 2027",
     "date": "2027-06-25",
     "start": "15:00",
     "status": "scheduled",
@@ -7326,10 +7392,65 @@
     "organiser": "Not available"
   },
   {
+    "id": "e700",
+    "name": "Day 1+2 - 11-12 agosto - Color Fest 15 | Chi vive in Calabria, chi vive d’amore",
+    "date": "2027-08-11",
+    "start": "16:30",
+    "status": "scheduled",
+    "venue": "Riviera dei Tramonti - Lungomare Falcone e Borsellino",
+    "city": "Lamezia Terme",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e701",
+    "name": "11 Agosto - 1 Day - Color Fest 15 | Chi vive in Calabria, chi vive d’amore",
+    "date": "2027-08-11",
+    "start": "16:30",
+    "status": "scheduled",
+    "venue": "Riviera dei Tramonti - Lungomare Falcone e Borsellino",
+    "city": "Lamezia Terme",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e409",
     "name": " Abbonamento - Full - Color Fest 15 | Chi vive in Calabria, chi vive d’amore",
     "date": "2027-08-11",
     "start": "17:00",
+    "status": "scheduled",
+    "venue": "Riviera dei Tramonti - Lungomare Falcone e Borsellino",
+    "city": "Lamezia Terme",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e702",
+    "name": "12 Agosto - 1 Day - Color Fest 15 | Chi vive in Calabria, chi vive d’amore",
+    "date": "2027-08-12",
+    "start": "16:30",
+    "status": "scheduled",
+    "venue": "Riviera dei Tramonti - Lungomare Falcone e Borsellino",
+    "city": "Lamezia Terme",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e703",
+    "name": "Day 2+3 - 12-13 agosto - Color Fest 15 | Chi vive in Calabria, chi vive d’amore",
+    "date": "2027-08-12",
+    "start": "17:00",
+    "status": "scheduled",
+    "venue": "Riviera dei Tramonti - Lungomare Falcone e Borsellino",
+    "city": "Lamezia Terme",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e704",
+    "name": "13 Agosto - 1 Day - Color Fest 15 | Chi vive in Calabria, chi vive d’amore",
+    "date": "2027-08-13",
+    "start": "16:30",
     "status": "scheduled",
     "venue": "Riviera dei Tramonti - Lungomare Falcone e Borsellino",
     "city": "Lamezia Terme",
@@ -7502,6 +7623,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e705",
+    "name": "DIODATO | Ma non eravamo qui per amarci? – Tour Teatri 2027",
+    "date": "2027-11-06",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Moderno",
+    "city": "Grosseto",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e414",
     "name": "Laura Pausini - Io Canto World Tour",
     "date": "2027-11-09",
@@ -7513,8 +7645,30 @@
     "organiser": "Not available"
   },
   {
+    "id": "e706",
+    "name": "Diodato | Ma non eravamo qui per amarci? – Tour Teatri 2027",
+    "date": "2027-11-13",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Goldoni",
+    "city": "Livorno",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e692",
     "name": "Diodato",
+    "date": "2027-11-23",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e707",
+    "name": "Diodato | Ma non eravamo qui per amarci? – Tour Teatri 2027",
     "date": "2027-11-23",
     "start": "21:00",
     "status": "scheduled",
@@ -7557,6 +7711,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e708",
+    "name": "Diodato | Ma non eravamo qui per amarci? – Tour Teatri 2027",
+    "date": "2027-12-03",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palatour Frecciarossa",
+    "city": "Bitritto",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e686",
     "name": "ANTONIA - Live 2027",
     "date": "2027-12-04",
@@ -7575,6 +7740,17 @@
     "status": "scheduled",
     "venue": "Santeria Toscana 31",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e709",
+    "name": "DIODATO | Ma non eravamo qui per amarci? – Tour Teatri 2027",
+    "date": "2027-12-10",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Orfeo",
+    "city": "Taranto",
     "category": "Concert",
     "organiser": "Not available"
   },
