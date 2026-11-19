@@ -4532,6 +4532,17 @@
     "organiser": "Lega Serie A"
   },
   {
+    "id": "e710",
+    "name": "Bologna FC 1909 vs Juventus FC",
+    "date": "2027-01-03",
+    "start": "20:45",
+    "status": "scheduled",
+    "venue": "Stadio Renato Dall'Ara",
+    "city": "Bologna",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e294",
     "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
     "date": "2027-01-03",
@@ -6160,6 +6171,28 @@
     "organiser": "Not available"
   },
   {
+    "id": "e711",
+    "name": "Fast Animals and Slow Kids",
+    "date": "2027-04-17",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e712",
+    "name": "DERYCK WHIBLEY",
+    "date": "2027-04-18",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Fabrique",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e364",
     "name": "I Musici di Francesco Guccini e Lodo Guenzi | \"Fra la Via Emilia e il West\"",
     "date": "2027-04-18",
@@ -6178,6 +6211,17 @@
     "status": "scheduled",
     "venue": "VOX Club",
     "city": "Nonantola",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e713",
+    "name": "Witch Club Satan",
+    "date": "2027-04-21",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "SPAZIO COMBO - SUONERIA",
+    "city": "Settimo Torinese",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -7300,6 +7344,17 @@
     "status": "scheduled",
     "venue": "Arena Ritten",
     "city": "Renon",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e714",
+    "name": "Locus 2027: Ben Harper / Mannarino",
+    "date": "2027-07-09",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Fiera del Levante",
+    "city": "Bari",
     "category": "Concert",
     "organiser": "Not available"
   },
