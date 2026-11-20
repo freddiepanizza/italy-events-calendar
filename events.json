@@ -3927,6 +3927,17 @@
     "organiser": "Lega Serie A"
   },
   {
+    "id": "e715",
+    "name": "Rock In Coro",
+    "date": "2026-12-14",
+    "start": "19:00",
+    "status": "scheduled",
+    "venue": "Teatro Greppi",
+    "city": "Bergamo",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e603",
     "name": "Juventus FC vs AC Monza",
     "date": "2026-12-14",
@@ -4099,6 +4110,17 @@
     "status": "scheduled",
     "venue": "Gran Teatro GEOX",
     "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e716",
+    "name": "HARLEM GOSPEL CHOIR ",
+    "date": "2026-12-17",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "ChorusLife Arena",
+    "city": "Bergamo",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -7436,6 +7458,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e717",
+    "name": "Abbonamento 3-Days Pass | Balena Festival",
+    "date": "2027-07-22",
+    "start": "18:30",
+    "status": "scheduled",
+    "venue": "Arena del Mare - Porto Antico",
+    "city": "Genova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e408",
     "name": "CLAUDIO BAGLIONI - GRAND TOUR LA VITA È ADESSO",
     "date": "2027-08-03",
@@ -7575,6 +7608,17 @@
     "status": "scheduled",
     "venue": "Unipol Forum",
     "city": "Assago",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e718",
+    "name": "Tananai",
+    "date": "2027-10-08",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "PalaPrometeo Estra",
+    "city": "Ancona",
     "category": "Concert",
     "organiser": "Not available"
   },
