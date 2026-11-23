@@ -7535,6 +7535,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e725",
+    "name": "Day 2 - NU GENEA LIVE BAND | Balena Festival",
+    "date": "2027-07-23",
+    "start": "18:30",
+    "status": "scheduled",
+    "venue": "Arena del Mare - Porto Antico",
+    "city": "Genova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e408",
     "name": "CLAUDIO BAGLIONI - GRAND TOUR LA VITA È ADESSO",
     "date": "2027-08-03",
@@ -7821,6 +7832,28 @@
     "organiser": "Not available"
   },
   {
+    "id": "e726",
+    "name": "Roger Waters Legacy",
+    "date": "2027-11-16",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Clerici",
+    "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e727",
+    "name": "Roger Waters Legacy",
+    "date": "2027-11-17",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e692",
     "name": "Diodato",
     "date": "2027-11-23",
@@ -7905,6 +7938,17 @@
     "status": "scheduled",
     "venue": "Santeria Toscana 31",
     "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e728",
+    "name": "PIL",
+    "date": "2027-12-10",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Live Club",
+    "city": "Trezzo Sull'Adda",
     "category": "Concert",
     "organiser": "Not available"
   },
