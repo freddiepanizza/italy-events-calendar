@@ -3597,6 +3597,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e729",
+    "name": "SACE6",
+    "date": "2026-12-08",
+    "start": "20:30",
+    "status": "scheduled",
+    "venue": "Gate Milano",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e247",
     "name": "Madame - Disincanto Tour",
     "date": "2026-12-08",
@@ -5302,6 +5313,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e730",
+    "name": "Canzoniere Grecanico Salentino",
+    "date": "2027-02-28",
+    "start": "16:30",
+    "status": "scheduled",
+    "venue": "Alcatraz",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e571",
     "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
     "date": "2027-03-02",
@@ -6446,6 +6468,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e731",
+    "name": "QUICKSAND",
+    "date": "2027-04-30",
+    "start": "20:00",
+    "status": "scheduled",
+    "venue": "Carro Social Hall",
+    "city": "Sesto San Giovanni",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e565",
     "name": "ELODIE SHOW 2027",
     "date": "2027-04-30",
@@ -6974,6 +7007,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e732",
+    "name": "Blue Oyster Cult (55th Anniversary Show)",
+    "date": "2027-06-16",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Teatro Clerici",
+    "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e389",
     "name": "Fontaines D.C.",
     "date": "2027-06-18",
@@ -7128,6 +7172,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e733",
+    "name": " Season 3-days Pass | FIRENZE ROCKS 2027",
+    "date": "2027-06-25",
+    "start": "14:30",
+    "status": "scheduled",
+    "venue": "Ippodromo del Visarno",
+    "city": "Firenze",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e682",
     "name": "FOO FIGHTERS, QUEENS OF THE STONE AGE, FAT DOG + TBA | FIRENZE ROCKS 2027",
     "date": "2027-06-25",
@@ -7201,6 +7256,17 @@
     "status": "scheduled",
     "venue": "Parco San Valentino",
     "city": "Pordenone",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e734",
+    "name": "WILCO",
+    "date": "2027-06-30",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Anfiteatro del Vittoriale - Gardone Riviera",
+    "city": "Gardone Riviera",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -7553,6 +7619,17 @@
     "status": "scheduled",
     "venue": "Anfiteatro Ivan Graziani",
     "city": "Alghero",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e735",
+    "name": "Locus 2027 - 10 agosto: Nu Genea",
+    "date": "2027-08-10",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Fiera del Levante",
+    "city": "Bari",
     "category": "Concert",
     "organiser": "Not available"
   },
