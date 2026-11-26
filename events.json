@@ -4708,6 +4708,28 @@
     "organiser": "Not available"
   },
   {
+    "id": "e749",
+    "name": "ACF Fiorentina vs US Lecce",
+    "date": "2027-01-10",
+    "start": "15:00",
+    "status": "scheduled",
+    "venue": "Stadio Artemio Franchi",
+    "city": "Firenze",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
+    "id": "e750",
+    "name": "Torino FC vs Atalanta BC",
+    "date": "2027-01-10",
+    "start": "18:00",
+    "status": "scheduled",
+    "venue": "Stadio Olimpico Grande Torino",
+    "city": "Torino",
+    "category": "Serie A",
+    "organiser": "Lega Serie A"
+  },
+  {
     "id": "e299",
     "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
     "date": "2027-01-13",
@@ -5815,6 +5837,17 @@
     "status": "scheduled",
     "venue": "Teatro Clerici",
     "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e751",
+    "name": "CARCASS + ROTTEN SOUND + BAT",
+    "date": "2027-03-21",
+    "start": "19:00",
+    "status": "scheduled",
+    "venue": "Alcatraz",
+    "city": "Milano",
     "category": "Concert",
     "organiser": "Not available"
   },
@@ -7146,6 +7179,17 @@
     "status": "scheduled",
     "venue": "Teatro Clerici",
     "city": "Brescia",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e752",
+    "name": "The Strokes | UNALTROFESTIVAL ",
+    "date": "2027-06-16",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Parco della Musica di Milano",
+    "city": "Segrate (Milano)",
     "category": "Concert",
     "organiser": "Not available"
   },
