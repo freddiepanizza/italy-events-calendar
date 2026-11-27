@@ -5049,6 +5049,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e753",
+    "name": "Lisa Agnelli - Pop Rock Concert",
+    "date": "2027-02-07",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Auditorium Santa Chiara",
+    "city": "Trento",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e310",
     "name": "MAX FOREVER | STESSA STORIA, STESSO POSTO, STESSO BAR",
     "date": "2027-02-08",
@@ -7447,6 +7458,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e754",
+    "name": "WILCO | Festival Tener-a-mente",
+    "date": "2027-06-30",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Anfiteatro del Vittoriale - Gardone Riviera",
+    "city": "Gardone Riviera",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e588",
     "name": "BEIRUT - ROMA SUMMER FEST",
     "date": "2027-07-01",
@@ -8008,6 +8030,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e755",
+    "name": "NEK - “LAURA 30th e TUTTO IL RESTO - LIVE”",
+    "date": "2027-10-16",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Palatour Frecciarossa",
+    "city": "Bitritto",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e685",
     "name": "PER MIRIA 22SIMBA LIVE AL FORUM",
     "date": "2027-10-20",
@@ -8063,6 +8096,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e756",
+    "name": "NEK - “LAURA 30th e TUTTO IL RESTO - LIVE”",
+    "date": "2027-11-04",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "ChorusLife Arena",
+    "city": "Bergamo",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e705",
     "name": "DIODATO | Ma non eravamo qui per amarci? – Tour Teatri 2027",
     "date": "2027-11-06",
@@ -8070,6 +8114,17 @@
     "status": "scheduled",
     "venue": "Teatro Moderno",
     "city": "Grosseto",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e757",
+    "name": "NEK - “LAURA 30th e TUTTO IL RESTO - LIVE”",
+    "date": "2027-11-06",
+    "start": "21:15",
+    "status": "scheduled",
+    "venue": "Gran Teatro GEOX",
+    "city": "Padova",
     "category": "Concert",
     "organiser": "Not available"
   },
