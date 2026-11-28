@@ -7106,6 +7106,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e758",
+    "name": "SLAM DUNK ITALY 2027 con SIMPLE PLAN, THE INTERRUPTERS, BILLY TALENT, The Suicide Machines, Hoobastank, Unpeopleand more",
+    "date": "2027-06-11",
+    "start": "15:30",
+    "status": "scheduled",
+    "venue": "Kozel Carroponte",
+    "city": "Sesto San Giovanni",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e384",
     "name": "VASCO RESIDENCY SHOW - ROMA 2027",
     "date": "2027-06-11",
@@ -8107,6 +8118,17 @@
     "organiser": "Not available"
   },
   {
+    "id": "e759",
+    "name": "SARAH TOSCANO | Live Tour 2027",
+    "date": "2027-11-05",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Fabrique",
+    "city": "Milano",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
     "id": "e705",
     "name": "DIODATO | Ma non eravamo qui per amarci? – Tour Teatri 2027",
     "date": "2027-11-06",
@@ -8136,6 +8158,17 @@
     "status": "scheduled",
     "venue": "Palasele",
     "city": "Eboli",
+    "category": "Concert",
+    "organiser": "Not available"
+  },
+  {
+    "id": "e760",
+    "name": "SARAH TOSCANO | Live Tour 2027",
+    "date": "2027-11-12",
+    "start": "21:00",
+    "status": "scheduled",
+    "venue": "Atlantico",
+    "city": "Roma",
     "category": "Concert",
     "organiser": "Not available"
   },
